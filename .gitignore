@@ -1,0 +1,7 @@
+# ignore complete vaillant directory
+vaillant/
+
+# ignore files
+/_templates.csv
+/broadcast.csv
+/memory.csv

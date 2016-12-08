@@ -41,32 +41,3 @@
 # type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
 b,,HK1,HK1->HR,30,,"0507",,Status,,opdataheat,,, ,Aktion,,opdataaction,,, ,Temp1,,temp,,, ,Solldruck,,press,,, ,stellgrad,,percent1,,, ,Temp2,,temp1,,, ,brennstoff,,fueltype,,,
 b,,HK2,HK2->HR,70,,"0507",,Status,,opdataheat,,, ,Aktion,,opdataaction,,, ,Temp1,,temp,,, ,Solldruck,,press,,, ,stellgrad,,percent1,,, ,Temp2,,temp1,,, ,brennstoff,,fueltype,,,
-
-
-# 5003 - Versuchsballon
-# 
-#
-
-# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
-*r,,,,,,"5003",,,,,,,
-
-r,,Info10, ,,,,"0A",,,temp,,,Betriebsphase
-r,,Info11, ,,,,"0B",,,temp,,,Laststellung
-r,,Info12, ,,,,"0C",,,temp,,,Gedämpfte Außentemperatur
-r,,Info13, ,,,,"0D",,,HEX:1,,,Wärmeanforderung ,V,,temp,,,W
-r,,Info14, ,,,,"0E",,,temp,,,SCOT-Basiswert
-
-r,,Info20, ,,,,"14",,,temp,,,Stellung Umschaltventil
-r,,Info21, ,,,,"15",,,temp,,,Ansteuersignal Gasstellglied
-r,,Info22, ,,,,"16",,,temp,,,Solldrehzahl PWM Pumpe
-r,,Info23, ,,,,"17",,,temp,,,Gebläsedrehzahl
-
-r,,Info30, ,,,,"1E",,,temp,,,Vorlauftemperatur 
-r,,Info31, ,,,,"1F",,,temp,,,Abgastemperatur 
-r,,Info32, ,,,,"20",,,temp,,,Ionisationssignal (SCOT Istwert) 
-r,,Info33, ,,,,"21",,,temp,,,Außentemperatur
-r,,Info34, ,,,,"22",,,temp,,,Warmwassertemperatur 
-r,,Info35, ,,,,"23",,,temp,,,Warmwassertemperatur 
-r,,Info36, ,,,,"24",,,temp,,,Durchflusswert
-r,,Info38, ,,,,"26",,,temp,,,Temperatur Pufferfühler B10 
-r,,Info39, ,,,,"27",,,temp,,,Temperatur Pufferfühler B11
