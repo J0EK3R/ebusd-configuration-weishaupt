@@ -1,0 +1,80 @@
+# Gerät:  Feuerungsautomat (Master11)
+# Master: 03h
+# Slave:  08h 
+
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
+*r,,,,,,"5000",,,,,,,
+
+# Quelle: "ebus parameter 01-13 aktuell.xls"
+#
+# M01    QQ   xxh Quelladresse
+# M02    ZZ   08h Zieladresse - Feuerungsautomat
+# M03    PB = 50h Service
+# M04    SB = 00h Service
+# M05    NN = 03h Datenlänge
+# M06         67h 
+# M07         b2h 
+# M08         a3h 
+# S01    NN = 0dh Datenlänge -> 13
+# S02         00h Byte1
+# S03         d2h Brennerbetriebsstunden
+# S04         01h Brennerbetriebsstunden
+# S05         04h Byte4
+# S06         00h Byte5
+# S07         0bh Byte6
+# S08         00h Byte7
+# S05         01h Byte8
+# S06         00h Byte9
+# S07         00h Byte10
+# S08         00h Byte11
+# S07         00h Byte12
+# S08         00h Byte13
+r,,FA.01, ,,08,5000,67b2a3,Byte01,,UCH,,,Byte1 ,Wartung,,UIN,,,Zeit seit letzter Wartung ,Byte04,,UCH,,,Byte4 ,Byte05,,UCH,,,Byte5 ,Byte06,,UCH,,,Byte6 ,Byte07,,UCH,,,Byte7 ,Byte08,,UCH,,,Byte8 ,Byte09,,UCH,,,Byte9 ,Byte10,,UCH,,,Byte10 ,Byte11,,UCH,,,Byte11 ,Byte12,,UCH,,,Byte12 ,Byte13,,UCH,,,Byte13
+
+# Quelle: "ebus parameter 01-13 aktuell.xls"
+#
+# M01    QQ   xxh Quelladresse
+# M02    ZZ   08h Zieladresse - Feuerungsautomat
+# M03    PB = 50h Service
+# M04    SB = 00h Service
+# M05    NN = 09h Datenlänge
+# M06         bch 
+# M07         11h 
+# M08         62h 
+# M09         01h 
+# M10         65h 
+# M11         11h 
+# M12         70h 
+# M13         01h 
+# M14         74h 
+# S01    NN = 07h Datenlänge
+# S02         00h Byte1
+# S03         00h Byte2
+# S04         3eh Byte3
+# S05         00h Byte4
+# S06         18h Gebläseregelung Solldrehzahl (Wert * 60)
+# S07         18h Gebläseregelung Istdrehzahl (Wert * 60)
+# S08         07h Byte7
+
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
+r,,Prozess1, ,,08,5000,bc1162016511700174,Byte01,,UCH,,,Byte1 ,Byte02,,UCH,,,Byte2 ,Byte03,,UCH,,,Byte3 ,Byte04,,UCH,,,Byte4 ,Solldrehzahl,,rpm60,,,Gebläseregelung Solldrehzahl ,Istdrehzahl,,rpm60,,,Gebläseregelung Istdrehzahl ,Byte07,,UCH,,,Byte7
+
+# Quelle: "ebus parameter 01-13 aktuell.xls"
+#
+# M01    QQ   xxh Quelladresse
+# M02    ZZ   08h Zieladresse - Feuerungsautomat
+# M03    PB = 50h Service
+# M04    SB = 00h Service
+# M05    NN = 05h Datenlänge
+# M06         0dh 
+# M07         01h 
+# M08         61h 
+# M09         03h 
+# M10         09h 
+# S01    NN = 03h Datenlänge
+# S02         00h Byte1
+# S03         00h IO Soll oder Ist?
+# S04         3eh Modulationsgrad%
+
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
+r,,Prozess2, ,,08,5000,0d01610309,Byte01,,UCH,,,Byte1 ,IO,,UCH,,,IO ,Modulationsgrad,,UCH,,,Modulationsgrad

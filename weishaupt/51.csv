@@ -1,0 +1,112 @@
+# Das Gerät mit Adresse S51 ist der Mischer
+
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
+*b,->MI1,,,,51,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+*b,HK2->MI1,,,70,51,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+*r,MI1,,,,51,"0902",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+# 
+# Request              Response
+# 7051501004b3180280 / 09463c3a0f0b60000000
+#     5010               B1B2B3B4B5B6B7B8B9
+#
+# M1   QQ   70h Quelladresse
+# M2   ZZ   51h Zieladresse
+# M3   PB = 50h 
+# M4   SB = 10h 
+# M5   NN = 04h Datenlänge
+# M6-       b3h Raumtemperatur              DATA2b -> 24.7°C
+# M7        18h ---                            
+# M8        02h
+# M9        08h
+# S1   NN = 09h Datenlänge
+# S2        46h Vorlauf max Kess-MK Überhöhung DATA1c -> 35°C
+# S3        3ch Vorlauf max                    DATA1c -> 30°C
+# S4        3ah Vorlauftemperatur              DATA1c -> 29°C
+# S5        0fh Außentemperatur                DATA1b -> 15°C
+# S6        0bh
+# S7        60h
+# S8        00h
+# S9        00h
+# S10       00h
+
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
+b,,MI1.PD, ,,,5010,,Temp1,m,temp2,,, ,Byte2,m,UCH,,, ,Byte3,m,UCH,,,REQ ,Temp4,s,temp1,,, ,Temp5,s,temp1,,, ,Temp2,s,temp1,,, ,Temp3,s,temp0,,, ,Byte8,s,UCH,,, ,Byte9,s,UCH,,, ,ByteA,s,UCH,,, ,ByteB,s,UCH,,, ,ByteC,s,UCH,,, ,ByteD,s,UCH,,, 
+
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
+b;r,,MI1.FE00, ,,,0902,00fe08,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,, ,Byte6,s,UCH,,, ,Byte7,s,UCH,,,
+b;r,,MI1.FE01, ,,,0902,01fe08,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,, ,Byte6,s,UCH,,, ,Byte7,s,UCH,,,
+b;r,,MI1.FE02, ,,,0902,02fe08,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,, ,Byte6,s,UCH,,, ,Byte7,s,UCH,,,
+b;r,,MI1.FE03, ,,,0902,03fe08,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,, ,Byte6,s,UCH,,, ,Byte7,s,UCH,,,
+b;r,,MI1.FE04, ,,,0902,04fe08,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,, ,Byte6,s,UCH,,, ,Byte7,s,UCH,,,
+b;r,,MI1.FE05, ,,,0902,05fe08,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,, ,Byte6,s,UCH,,, ,Byte7,s,UCH,,,
+b;r,,MI1.FE06, ,,,0902,06fe08,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,, ,Byte6,s,UCH,,, ,Byte7,s,UCH,,,
+b;r,,MI1.FE07, ,,,0902,07fe08,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,, ,Byte6,s,UCH,,, ,Byte7,s,UCH,,,
+
+b,,MI1.0112, ,,,0903,1201,Byte0,m,UCH,,, ,Byte1,m,UCH,,,
+
+b;r,,MI1.1410, ,,,0902,101406,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,,
+b,,MI1.1410.w, ,,,0903,1014,Byte0,m,UCH,,, ,Byte1,m,UCH,,, ,Byte2,m,UCH,,, ,Byte3,m,UCH,,, ,Byte4,m,UCH,,, ,Byte5,m,UCH,,,
+
+b;r,,MI1.1420, ,,,0902,201406,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,,
+b,,MI1.1420.w, ,,,0903,2014,Byte0,m,UCH,,, ,Byte1,m,UCH,,, ,Byte2,m,UCH,,, ,Byte3,m,UCH,,, ,Byte4,m,UCH,,, ,Byte5,m,UCH,,,
+
+b;r,,MI1.1430, ,,,0902,301406,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,,
+b,,MI1.1430.w, ,,,0903,3014,Byte0,m,UCH,,, ,Byte1,m,UCH,,, ,Byte2,m,UCH,,, ,Byte3,m,UCH,,, ,Byte4,m,UCH,,, ,Byte5,m,UCH,,,
+
+b;r,,MI1.1440, ,,,0902,401406,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,,
+b,,MI1.1440.w, ,,,0903,4014,Byte0,m,UCH,,, ,Byte1,m,UCH,,, ,Byte2,m,UCH,,, ,Byte3,m,UCH,,, ,Byte4,m,UCH,,, ,Byte5,m,UCH,,,
+
+b;r,,MI1.1450, ,,,0902,501406,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,,
+b,,MI1.1450.w, ,,,0903,5014,Byte0,m,UCH,,, ,Byte1,m,UCH,,, ,Byte2,m,UCH,,, ,Byte3,m,UCH,,, ,Byte4,m,UCH,,, ,Byte5,m,UCH,,,
+
+b;r,,MI1.1460, ,,,0902,601406,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,,
+b,,MI1.1460.w, ,,,0903,6014,Byte0,m,UCH,,, ,Byte1,m,UCH,,, ,Byte2,m,UCH,,, ,Byte3,m,UCH,,, ,Byte4,m,UCH,,, ,Byte5,m,UCH,,,
+
+b;r,,MI1.1470, ,,,0902,701406,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,,
+b,,MI1.1470.w, ,,,0903,7014,Byte0,m,UCH,,, ,Byte1,m,UCH,,, ,Byte2,m,UCH,,, ,Byte3,m,UCH,,, ,Byte4,m,UCH,,, ,Byte5,m,UCH,,,
+
+b;r,,MI1.1510, ,,,0902,101506,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,,
+b,,MI1.1510.w, ,,,0903,1015,Byte0,m,UCH,,, ,Byte1,m,UCH,,, ,Byte2,m,UCH,,, ,Byte3,m,UCH,,, ,Byte4,m,UCH,,, ,Byte5,m,UCH,,,
+
+b;r,,MI1.1520, ,,,0902,201506,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,,
+b,,MI1.1520.w, ,,,0903,2015,Byte0,m,UCH,,, ,Byte1,m,UCH,,, ,Byte2,m,UCH,,, ,Byte3,m,UCH,,, ,Byte4,m,UCH,,, ,Byte5,m,UCH,,,
+
+b;r,,MI1.1530, ,,,0902,301506,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,,
+b,,MI1.1530.w, ,,,0903,3015,Byte0,m,UCH,,, ,Byte1,m,UCH,,, ,Byte2,m,UCH,,, ,Byte3,m,UCH,,, ,Byte4,m,UCH,,, ,Byte5,m,UCH,,,
+
+b;r,,MI1.1540, ,,,0902,401506,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,,
+b,,MI1.1540.w, ,,,0903,4015,Byte0,m,UCH,,, ,Byte1,m,UCH,,, ,Byte2,m,UCH,,, ,Byte3,m,UCH,,, ,Byte4,m,UCH,,, ,Byte5,m,UCH,,,
+
+b;r,,MI1.1550, ,,,0902,501506,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,,
+b,,MI1.1550.w, ,,,0903,5015,Byte0,m,UCH,,, ,Byte1,m,UCH,,, ,Byte2,m,UCH,,, ,Byte3,m,UCH,,, ,Byte4,m,UCH,,, ,Byte5,m,UCH,,,
+
+b;r,,MI1.1560, ,,,0902,601506,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,,
+b,,MI1.1560.w, ,,,0903,6015,Byte0,m,UCH,,, ,Byte1,m,UCH,,, ,Byte2,m,UCH,,, ,Byte3,m,UCH,,, ,Byte4,m,UCH,,, ,Byte5,m,UCH,,,
+
+b;r,,MI1.1570, ,,,0902,701506,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,,
+b,,MI1.1570.w, ,,,0903,7015,Byte0,m,UCH,,, ,Byte1,m,UCH,,, ,Byte2,m,UCH,,, ,Byte3,m,UCH,,, ,Byte4,m,UCH,,, ,Byte5,m,UCH,,,
+
+b;r,,MI1.1610, ,,,0902,101606,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,,
+b,,MI1.1610.w, ,,,0903,1016,Byte0,m,UCH,,, ,Byte1,m,UCH,,, ,Byte2,m,UCH,,, ,Byte3,m,UCH,,, ,Byte4,m,UCH,,, ,Byte5,m,UCH,,,
+
+b;r,,MI1.1620, ,,,0902,201606,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,,
+b,,MI1.1620.w, ,,,0903,2016,Byte0,m,UCH,,, ,Byte1,m,UCH,,, ,Byte2,m,UCH,,, ,Byte3,m,UCH,,, ,Byte4,m,UCH,,, ,Byte5,m,UCH,,,
+
+b;r,,MI1.1630, ,,,0902,301606,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,,
+b,,MI1.1630.w, ,,,0903,3016,Byte0,m,UCH,,, ,Byte1,m,UCH,,, ,Byte2,m,UCH,,, ,Byte3,m,UCH,,, ,Byte4,m,UCH,,, ,Byte5,m,UCH,,,
+
+b;r,,MI1.1640, ,,,0902,401606,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,,
+b,,MI1.1640.w, ,,,0903,4016,Byte0,m,UCH,,, ,Byte1,m,UCH,,, ,Byte2,m,UCH,,, ,Byte3,m,UCH,,, ,Byte4,m,UCH,,, ,Byte5,m,UCH,,,
+
+b;r,,MI1.1650, ,,,0902,501606,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,,
+b,,MI1.1650.w, ,,,0903,5016,Byte0,m,UCH,,, ,Byte1,m,UCH,,, ,Byte2,m,UCH,,, ,Byte3,m,UCH,,, ,Byte4,m,UCH,,, ,Byte5,m,UCH,,,
+
+b;r,,MI1.1660, ,,,0902,601606,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,,
+b,,MI1.1660.w, ,,,0903,6016,Byte0,m,UCH,,, ,Byte1,m,UCH,,, ,Byte2,m,UCH,,, ,Byte3,m,UCH,,, ,Byte4,m,UCH,,, ,Byte5,m,UCH,,,
+
+b;r,,MI1.1670, ,,,0902,701606,Byte0,s,UCH,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,,
+b,,MI1.1670.w, ,,,0903,7016,Byte0,m,UCH,,, ,Byte1,m,UCH,,, ,Byte2,m,UCH,,, ,Byte3,m,UCH,,, ,Byte4,m,UCH,,, ,Byte5,m,UCH,,,
+
+
+

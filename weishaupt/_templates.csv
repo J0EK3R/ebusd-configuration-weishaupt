@@ -1,0 +1,10 @@
+# template name,type / templates,divider / values,unit,comment
+
+# Programmwahlschalter
+programmwahl,UIN,0x01=Standby;0x03=Normaltemperatur;0x04=Absenktemperatur;0x05=Sommer;0x0b=Programm 1;0x0c=Programm 2;0x0d=Programm 3,,Programmwahlschalter
+
+#siehe S33 Tabelle Betriebsphasen
+betriebsphase,UCH,0x00=BrennerAus;0x01=RuhestandskontrolleGebläse;0x02=VorspühldrehzahlErreichen;0x03=CountdownVorspühlzeit;0x04=ZünddrehzahlErreichen;0x05=Flammenbildungszeit;0x06=BrennerInBetrieb;0x07=GasventilkontrolleV1;0x08=GasventilkontrolleV2;0x09=Nachspühlen,,Betriebsphase
+
+# Gebläsedrehzahl [Wert * 60]
+rpm60,UCH,,Rpm,Drehzahl

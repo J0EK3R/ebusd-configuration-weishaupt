@@ -1,0 +1,72 @@
+# Gerät:  Heizungsregler
+# Master: F1h
+# Slave:  F6h 
+
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
+*b,->HR,,,,F1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+# 0507 - Betriebsdaten des Reglers an den Feuerungsautomaten
+# Diese Telegramme werden von den Heizkreisreglern an den Heizungsregler/Feuerungsautomaten gesendet.
+#
+# M1  QQ       Quelladresse
+# M2  ZZ       Zieladresse
+# M3  PB = 05h Brennersteuerung
+# M4  SB = 07h Betriebsdaten Regler
+# M5  NN = 09h Datenlänge                                                10:
+# M6           Statuswärmeanfordung                     opdataheat      
+#          00h Brenner abschalten
+#          01h keine Aktion
+#          55h Brauchwasserbereitung
+#          AAh Heizbetrieb
+#          CCh Emissionskontrolle
+#          DDh TÜV-Funktion
+#          EEh Reglerstop-Funktion
+#          BBh Brauchwasserbereitung bei Heizbetrieb
+#          44h Reglerstop-Funktion bei stufigem Betrieb
+# M7           Aktion                                   opdataaction     12:
+#          00h keine Aktion
+#          01h Ausschalten Kesselpumpe
+#          02h Einschalten Kesselpumpe
+#          03h Ausschalten variabler Verbraucher
+#          04h Einschalten variabler Verbraucher
+# M8-          Kesselsollwert-Temperatur         0-2000 DATA2c           14:
+# M9                                                    [1/16]           16:
+# M10          Kesselsollwert-Druck              0-100  DATA2b           18:
+# M11                                                   [1/256]          20:
+# M12          Stellgrad                         0-100                   22:
+# M13          Brauchwassersollwert              0-100  DATA1c           24:
+# M14          Brennstoffwahl                                            26:
+# M15 CRC
+
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
+b,,HK1,HK1->HR,30,,"0507",,Status,,opdataheat,,, ,Aktion,,opdataaction,,, ,Temp1,,temp,,, ,Solldruck,,press,,, ,stellgrad,,percent1,,, ,Temp2,,temp1,,, ,brennstoff,,fueltype,,,
+b,,HK2,HK2->HR,70,,"0507",,Status,,opdataheat,,, ,Aktion,,opdataaction,,, ,Temp1,,temp,,, ,Solldruck,,press,,, ,stellgrad,,percent1,,, ,Temp2,,temp1,,, ,brennstoff,,fueltype,,,
+
+
+# 5003 - Versuchsballon
+# 
+#
+
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
+*r,,,,,,"5003",,,,,,,
+
+r,,Info10, ,,,,"0A",,,temp,,,Betriebsphase
+r,,Info11, ,,,,"0B",,,temp,,,Laststellung
+r,,Info12, ,,,,"0C",,,temp,,,Gedämpfte Außentemperatur
+r,,Info13, ,,,,"0D",,,HEX:1,,,Wärmeanforderung ,V,,temp,,,W
+r,,Info14, ,,,,"0E",,,temp,,,SCOT-Basiswert
+
+r,,Info20, ,,,,"14",,,temp,,,Stellung Umschaltventil
+r,,Info21, ,,,,"15",,,temp,,,Ansteuersignal Gasstellglied
+r,,Info22, ,,,,"16",,,temp,,,Solldrehzahl PWM Pumpe
+r,,Info23, ,,,,"17",,,temp,,,Gebläsedrehzahl
+
+r,,Info30, ,,,,"1E",,,temp,,,Vorlauftemperatur 
+r,,Info31, ,,,,"1F",,,temp,,,Abgastemperatur 
+r,,Info32, ,,,,"20",,,temp,,,Ionisationssignal (SCOT Istwert) 
+r,,Info33, ,,,,"21",,,temp,,,Außentemperatur
+r,,Info34, ,,,,"22",,,temp,,,Warmwassertemperatur 
+r,,Info35, ,,,,"23",,,temp,,,Warmwassertemperatur 
+r,,Info36, ,,,,"24",,,temp,,,Durchflusswert
+r,,Info38, ,,,,"26",,,temp,,,Temperatur Pufferfühler B10 
+r,,Info39, ,,,,"27",,,temp,,,Temperatur Pufferfühler B11
