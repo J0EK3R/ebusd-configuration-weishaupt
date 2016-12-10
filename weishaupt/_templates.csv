@@ -8,3 +8,6 @@ betriebsphase,UCH,0x00=BrennerAus;0x01=RuhestandskontrolleGebläse;0x02=Vorspüh
 
 # Gebläsedrehzahl [Wert * 60]
 rpm60,UCH,,Rpm,Drehzahl
+
+# 2 Byte vorzeichenbehaftete Temperatur mit Skalierung 1/10
+temp10:temp,SIN,10,°C,Temperatur
