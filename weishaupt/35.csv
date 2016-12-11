@@ -6,46 +6,45 @@
 #        ebusctl w -c HK1 HK1.T_Normal 25.0
 
 # type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
-*b,HK1,,,,35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-*r,HK1,,,,35,"0902",,,,,,,
-*w,HK1,,,,35,"0903",,,,,,,
+*r,HK1,,,,,"0902",,,,,,,
+*w,HK1,,,,,"0903",,,,,,,
 
-r,,HK1.Außen, ,,,,0c0002,,,temp10,,,Außentemperatur Ist
-r,,HK1.Kessel, ,,,,0d0002,,,temp10,,,Kessel Ist
-r,,HK1.Warmwasser.Ist, ,,,,0E0002,,,temp10,,,Warmwasser Ist
-r,,HK1.Raum.Ist, ,,,,110002,,,temp10,,,Raum Ist
+r,,HK1.Außen, ,,,,"0C0002",,,temp10,,,Außentemperatur Ist
+r,,HK1.Kessel, ,,,,"0D0002",,,temp10,,,Kessel Ist
+r,,HK1.Warmwasser.Ist, ,,,,"0E0002",,,temp10,,,Warmwasser Ist
+r,,HK1.Raum.Ist, ,,,,"110002",,,temp10,,,Raum Ist
 
-r,,HK1.Programm, ,,,,120102,,,programmwahl,,,Stellung Programmwahlschalter
+r,,HK1.Programm, ,,,,"120102",,,programmwahl,,,Stellung Programmwahlschalter
 
-r,,HK1.T_Normal, ,,,,050002,,,temp10,,,Normaltemperatur Sollwert (Anwender 171)
-w,,HK1.T_Normal, ,,,,0500,,,temp10,,,
+r,,HK1.T_Normal, ,,,,"050002",,,temp10,,,Normaltemperatur Sollwert (Anwender 171)
+w,,HK1.T_Normal, ,,,,"0500",,,temp10,,,
 
-r,,HK1.T_Absenk, ,,,,080002,,,temp10,,,Absenktemperatur Sollwert (Anwender 172)
-w,,HK1.T_Absenk, ,,,,0800,,,temp10,,,
+r,,HK1.T_Absenk, ,,,,"080002",,,temp10,,,Absenktemperatur Sollwert (Anwender 172)
+w,,HK1.T_Absenk, ,,,,"0800",,,temp10,,,
 
-r,,HK1.T_Frost, ,,,,140A02,,,temp10,,,Frostschutz Soll (Anwender 173)
-w,,HK1.T_Frost, ,,,,140A,,,temp10,,,
+r,,HK1.T_Frost, ,,,,"140A02",,,temp10,,,Frostschutz Soll (Anwender 173)
+w,,HK1.T_Frost, ,,,,"140A",,,temp10,,,
 
-r,,HK1.T_SoWi, ,,,,160102,,,temp10,,,Sommer/Winter-Umschaltung (Anwender 174)
-w,,HK1.T_SoWi, ,,,,1601,,,temp10,,,
+r,,HK1.T_SoWi, ,,,,"160102",,,temp10,,,Sommer/Winter-Umschaltung (Anwender 174)
+w,,HK1.T_SoWi, ,,,,"1601",,,temp10,,,
 
-r,,HK1.Steilheit, ,,,,0E0102,,,UIN,10,,Steilheit (Anwender 175)
-w,,HK1.Steilheit, ,,,,0E01,,,UIN,10,,
+r,,HK1.Steilheit, ,,,,"0E0102",,,UIN,10,,Steilheit (Anwender 175)
+w,,HK1.Steilheit, ,,,,"0E01",,,UIN,10,,
 
-r,,HK1.Warmwasser.Soll, ,,,,130002,,,temp10,,,Warmwasser Soll (Anwender 176)
-w,,HK1.Warmwasser.Soll, ,,,,1300,,,temp10,,,
+r,,HK1.Warmwasser.Soll, ,,,,"130002",,,temp10,,,Warmwasser Soll (Anwender 176)
+w,,HK1.Warmwasser.Soll, ,,,,"1300",,,temp10,,,
 
-r,,HK1.Warmwasser.Min, ,,,,330102,,,temp10,,,Warmwasser Min (Anwender 177)
-w,,HK1.Warmwasser.Min, ,,,,3301,,,temp10,,,
+r,,HK1.Warmwasser.Min, ,,,,"330102",,,temp10,,,Warmwasser Min (Anwender 177)
+w,,HK1.Warmwasser.Min, ,,,,"3301",,,temp10,,,
 
-r,,HK1.Warmwasser.Max, ,,,,340102,,,temp10,,,Warmwasser Max (Heizungsfachmann 362)
-w,,HK1.Warmwasser.Max, ,,,,3401,,,temp10,,,
+r,,HK1.Warmwasser.Max, ,,,,"340102",,,temp10,,,Warmwasser Max (Heizungsfachmann 362)
+w,,HK1.Warmwasser.Max, ,,,,"3401",,,temp10,,,
 
-r,,HK1.Vorlauf.Min, ,,,,2b0102,,,temp10,,,Vorlauf Min (Heizungsfachmann 351)
-w,,HK1.Vorlauf.Min, ,,,,2b01,,,temp10,,,
+r,,HK1.Vorlauf.Min, ,,,,"2b0102",,,temp10,,,Vorlauf Min (Heizungsfachmann 351)
+w,,HK1.Vorlauf.Min, ,,,,"2b01",,,temp10,,,
 
-r,,HK1.Vorlauf.Max, ,,,,280002,,,temp10,,,Vorlauf Max (Heizungsfachmann 352)
-w,,HK1.Vorlauf.Max, ,,,,2800,,,temp10,,,
+r,,HK1.Vorlauf.Max, ,,,,"280002",,,temp10,,,Vorlauf Max (Heizungsfachmann 352)
+w,,HK1.Vorlauf.Max, ,,,,"2800",,,temp10,,,
 
 # Parameter Heizungsfachmann 341 - Raumeinfluss
 # Raumtemperatur-Einfluss (S.11)
@@ -58,8 +57,8 @@ w,,HK1.Vorlauf.Max, ,,,,2800,,,temp10,,,
 #              Diese Einstellung sollte gewählt werden, wenn die WCM-FB nicht in einem Referenzraum eingesetzt ist.
 # 0 - 20       Raumtemperatur-Einfluss wirksam
 #
-r,,HK1.Raumeinfluss, ,,,,0F0102,,,UIN,,,Raumeinfluss (Heizungsfachmann 341)
-w,,HK1.Raumeinfluss, ,,,,0F01,,,UIN,,,
+r,,HK1.Raumeinfluss, ,,,,"0F0102",,,UIN,,,Raumeinfluss (Heizungsfachmann 341)
+w,,HK1.Raumeinfluss, ,,,,"0F01",,,UIN,,,
 
 # Parameter Heizungsfachmann 342 - Messwertkorrektur des Raumfühlers
 # Skalierung 1/10
@@ -68,8 +67,8 @@ w,,HK1.Raumeinfluss, ,,,,0F01,,,UIN,,,
 # zu kompensieren, bzw. Fühlerangleichung.
 # -3.0°C - 3.0°C            Bei dieser Einstellung ist die Raumthermostatfunktion wirksam
 #
-r,,HK1.RaumsensorKorrektur, ,,,,090102,,,UIN,,,Messwertkorrektur des Raumfühlers (Heizungsfachmann 342)
-w,,HK1.RaumsensorKorrektur, ,,,,0901,,,UIN,,,
+r,,HK1.RaumsensorKorrektur, ,,,,"090102",,,UIN,,,Messwertkorrektur des Raumfühlers (Heizungsfachmann 342)
+w,,HK1.RaumsensorKorrektur, ,,,,"0901",,,UIN,,,
 
 # Parameter Heizungsfachmann 343 - Heizkennlinien-Adaption
 # -> Erscheint nur, wenn Parameter 341 auf 0..20 gestellt ist.
@@ -81,8 +80,8 @@ w,,HK1.RaumsensorKorrektur, ,,,,0901,,,UIN,,,
 # Aus           Adaption unwirksam
 # Ein           Adaption wirksam. Die Heizkennlinie wird angepasst 
 #
-r,,HK1.Adaption, ,,,,150102,,,UIN,,,Heizkennlinien-Adaption (Heizungsfachmann 343)
-w,,HK1.Adaption, ,,,,1501,,,UIN,,,
+r,,HK1.Adaption, ,,,,"150102",,,UIN,,,Heizkennlinien-Adaption (Heizungsfachmann 343)
+w,,HK1.Adaption, ,,,,"1501",,,UIN,,,
 
 # Parameter Heizungsfachmann 353 - Ein Opti 
 # Wert in Minuten
@@ -97,8 +96,8 @@ w,,HK1.Adaption, ,,,,1501,,,UIN,,,
 # 0            Einschaltoptimierung unwirksam
 # 15 - 240 min Maximale Vorverlegung der Einschaltzeit
 #
-r,,HK1.EinOpti, ,,,,100102,,,UIN,,,Ein Opti (Heizungsfachmann 353)
-w,,HK1.EinOpti, ,,,,1001,,,UIN,,,
+r,,HK1.EinOpti, ,,,,"100102",,,UIN,,,Ein Opti (Heizungsfachmann 353)
+w,,HK1.EinOpti, ,,,,"1001",,,UIN,,,
 
 # Parameter Heizungsfachmann 354 - Aus Opti 
 # -> Erscheint nur, wenn Parameter 341 auf "Ein" gestellt ist
@@ -113,32 +112,32 @@ w,,HK1.EinOpti, ,,,,1001,,,UIN,,,
 # 0            Ausschaltzeitoptimierung unwirksam
 # 15 - 240 min Maximale Vorverlegung des Ausschaltzeitpunktes
 #
-r,,HK1.AusOpti, ,,,,2E0102,,,UIN,,,Aus Opti (Heizungsfachmann 354)
-w,,HK1.AusOpti, ,,,,2E01,,,UIN,,,
+r,,HK1.AusOpti, ,,,,"2E0102",,,UIN,,,Aus Opti (Heizungsfachmann 354)
+w,,HK1.AusOpti, ,,,,"2E01",,,UIN,,,
 
 # Parameter Anwender 181 - Urlaub Ab - Tag
 # [00,01-31]
 #
-r,,HK1.Urlaub.Ab.Tag, ,,,,1B0102,,,UIN,,,Urlaub Ab - Tag (Anwender 181)
-w,,HK1.Urlaub.Ab.Tag, ,,,,1B01,,,UIN,,,
+r,,HK1.Urlaub.Ab.Tag, ,,,,"1B0102",,,UIN,,,Urlaub Ab - Tag (Anwender 181)
+w,,HK1.Urlaub.Ab.Tag, ,,,,"1B01",,,UIN,,,
 
 # Parameter Anwender 181 - Urlaub Ab - Monat
 # [01-12]
 #
-r,,HK1.Urlaub.Ab.Monat, ,,,,1C0102,,,UIN,,,Urlaub Ab - Monat (Anwender 181)
-w,,HK1.Urlaub.Ab.Monat, ,,,,1C01,,,UIN,,,
+r,,HK1.Urlaub.Ab.Monat, ,,,,"1C0102",,,UIN,,,Urlaub Ab - Monat (Anwender 181)
+w,,HK1.Urlaub.Ab.Monat, ,,,,"1C01",,,UIN,,,
 
 # Parameter Anwender 182 - Urlaub Bis - Tag
 # [00,01-31]
 #
-r,,HK1.Urlaub.Bis.Tag, ,,,,1E0102,,,UIN,,,Urlaub Bis - Tag (Anwender 182)
-w,,HK1.Urlaub.Bis.Tag, ,,,,1E01,,,UIN,,,
+r,,HK1.Urlaub.Bis.Tag, ,,,,"1E0102",,,UIN,,,Urlaub Bis - Tag (Anwender 182)
+w,,HK1.Urlaub.Bis.Tag, ,,,,"1E01",,,UIN,,,
 
 # Parameter Anwender 182 - Urlaub Bis - Monat
 # [01-12]
 #
-r,,HK1.Urlaub.Bis.Monat, ,,,,1F0102,,,UIN,,,Urlaub Bis - Monat (Anwender 182)
-w,,HK1.Urlaub.Bis.Monat, ,,,,1F01,,,UIN,,,
+r,,HK1.Urlaub.Bis.Monat, ,,,,"1F0102",,,UIN,,,Urlaub Bis - Monat (Anwender 182)
+w,,HK1.Urlaub.Bis.Monat, ,,,,"1F01",,,UIN,,,
 
 
 # Parameter Anwender 121 - Heizprogramm 1 Montag
@@ -146,60 +145,60 @@ w,,HK1.Urlaub.Bis.Monat, ,,,,1F01,,,UIN,,,
 # 255 (0xFF) -> Off
 #   1 (0x01) -> 00:15 Uhr
 #  96 (0x60) -> 24:00 Uhr
-r,,HK1.HP1.Mo.1, ,,,,101402,,,UIN,,,Heizprogramm 1 Mo 1 Start/Ende (Anwender 121)
-w,,HK1.HP1.Mo.1, ,,,,1014,,,UIN,,,
-r,,HK1.HP1.Mo.2, ,,,,111402,,,UIN,,,Heizprogramm 1 Mo 2 Start/Ende (Anwender 121)
-w,,HK1.HP1.Mo.2, ,,,,1114,,,UIN,,,
-r,,HK1.HP1.Mo.3, ,,,,121402,,,UIN,,,Heizprogramm 1 Mo 3 Start/Ende (Anwender 121)
-w,,HK1.HP1.Mo.3, ,,,,1214,,,UIN,,,
+r,,HK1.HP1.Mo.1,Heizprogramm 1 Mo 1 Start/Ende (Anwender 121) ,,,,1014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Mo.1, ,,,,1014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP1.Mo.2,Heizprogramm 1 Mo 2 Start/Ende (Anwender 121) ,,,,1114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Mo.2, ,,,,1114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP1.Mo.3,Heizprogramm 1 Mo 3 Start/Ende (Anwender 121) ,,,,1214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Mo.3, ,,,,1214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 122 - Heizprogramm 1 Dienstag
-r,,HK1.HP1.Di.1, ,,,,201402,,,UIN,,,Heizprogramm 1 Di 1 Start/Ende (Anwender 122)
-w,,HK1.HP1.Di.1, ,,,,2014,,,UIN,,,
-r,,HK1.HP1.Di.2, ,,,,211402,,,UIN,,,Heizprogramm 1 Di 2 Start/Ende (Anwender 122)
-w,,HK1.HP1.Di.2, ,,,,2114,,,UIN,,,
-r,,HK1.HP1.Di.3, ,,,,221402,,,UIN,,,Heizprogramm 1 Di 3 Start/Ende (Anwender 122)
-w,,HK1.HP1.Di.3, ,,,,2214,,,UIN,,,
+r,,HK1.HP1.Di.1,Heizprogramm 1 Di 1 Start/Ende (Anwender 122) ,,,,201402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Di.1, ,,,,2014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP1.Di.2,Heizprogramm 1 Di 2 Start/Ende (Anwender 122) ,,,,211402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Di.2, ,,,,2114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP1.Di.3,Heizprogramm 1 Di 3 Start/Ende (Anwender 122) ,,,,221402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Di.3, ,,,,2214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 123 - Heizprogramm 1 Mittwoch
-r,,HK1.HP1.Mi.1, ,,,,301402,,,UIN,,,Heizprogramm 1 Mi 1 Start/Ende (Anwender 123)
-w,,HK1.HP1.Mi.1, ,,,,3014,,,UIN,,,
-r,,HK1.HP1.Mi.2, ,,,,311402,,,UIN,,,Heizprogramm 1 Mi 2 Start/Ende (Anwender 123)
-w,,HK1.HP1.Mi.2, ,,,,3114,,,UIN,,,
-r,,HK1.HP1.Mi.3, ,,,,321402,,,UIN,,,Heizprogramm 1 Mi 3 Start/Ende (Anwender 123)
-w,,HK1.HP1.Mi.3, ,,,,3214,,,UIN,,,
+r,,HK1.HP1.Mi.1,Heizprogramm 1 Mi 1 Start/Ende (Anwender 123) ,,,,301402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Mi.1, ,,,,3014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP1.Mi.2,Heizprogramm 1 Mi 2 Start/Ende (Anwender 123) ,,,,311402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Mi.2, ,,,,3114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP1.Mi.3,Heizprogramm 1 Mi 3 Start/Ende (Anwender 123) ,,,,321402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Mi.3, ,,,,3214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 124 - Heizprogramm 1 Donnerstag
-r,,HK1.HP1.Do.1, ,,,,401402,,,UIN,,,Heizprogramm 1 Do 1 Start/Ende (Anwender 124)
-w,,HK1.HP1.Do.1, ,,,,4014,,,UIN,,,
-r,,HK1.HP1.Do.2, ,,,,411402,,,UIN,,,Heizprogramm 1 Do 2 Start/Ende (Anwender 124)
-w,,HK1.HP1.Do.2, ,,,,4114,,,UIN,,,
-r,,HK1.HP1.Do.3, ,,,,421402,,,UIN,,,Heizprogramm 1 Do 3 Start/Ende (Anwender 124)
-w,,HK1.HP1.Do.3, ,,,,4214,,,UIN,,,
+r,,HK1.HP1.Do.1,Heizprogramm 1 Do 1 Start/Ende (Anwender 124) ,,,,401402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Do.1, ,,,,4014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP1.Do.2,Heizprogramm 1 Do 2 Start/Ende (Anwender 124) ,,,,411402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Do.2, ,,,,4114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP1.Do.3,Heizprogramm 1 Do 3 Start/Ende (Anwender 124) ,,,,421402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Do.3, ,,,,4214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 125 - Heizprogramm 1 Freitag
-r,,HK1.HP1.Fr.1, ,,,,501402,,,UIN,,,Heizprogramm 1 Fr 1 Start/Ende (Anwender 125)
-w,,HK1.HP1.Fr.1, ,,,,5014,,,UIN,,,
-r,,HK1.HP1.Fr.2, ,,,,511402,,,UIN,,,Heizprogramm 1 Fr 2 Start/Ende (Anwender 125)
-w,,HK1.HP1.Fr.2, ,,,,5114,,,UIN,,,
-r,,HK1.HP1.Fr.3, ,,,,521402,,,UIN,,,Heizprogramm 1 Fr 3 Start/Ende (Anwender 125)
-w,,HK1.HP1.Fr.3, ,,,,5214,,,UIN,,,
+r,,HK1.HP1.Fr.1,Heizprogramm 1 Fr 1 Start/Ende (Anwender 125) ,,,,501402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Fr.1, ,,,,5014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP1.Fr.2,Heizprogramm 1 Fr 2 Start/Ende (Anwender 125) ,,,,511402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Fr.2, ,,,,5114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP1.Fr.3,Heizprogramm 1 Fr 3 Start/Ende (Anwender 125) ,,,,521402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Fr.3, ,,,,5214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 126 - Heizprogramm 1 Samstag
-r,,HK1.HP1.Sa.1, ,,,,601402,,,UIN,,,Heizprogramm 1 Sa 1 Start/Ende (Anwender 126)
-w,,HK1.HP1.Sa.1, ,,,,6014,,,UIN,,,
-r,,HK1.HP1.Sa.2, ,,,,611402,,,UIN,,,Heizprogramm 1 Sa 2 Start/Ende (Anwender 126)
-w,,HK1.HP1.Sa.2, ,,,,6114,,,UIN,,,
-r,,HK1.HP1.Sa.3, ,,,,621402,,,UIN,,,Heizprogramm 1 Sa 3 Start/Ende (Anwender 126)
-w,,HK1.HP1.Sa.3, ,,,,6214,,,UIN,,,
+r,,HK1.HP1.Sa.1,Heizprogramm 1 Sa 1 Start/Ende (Anwender 126) ,,,,601402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Sa.1, ,,,,6014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP1.Sa.2,Heizprogramm 1 Sa 2 Start/Ende (Anwender 126) ,,,,611402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Sa.2, ,,,,6114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP1.Sa.3,Heizprogramm 1 Sa 3 Start/Ende (Anwender 126) ,,,,621402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Sa.3, ,,,,6214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 127 - Heizprogramm 1 Sonntag
-r,,HK1.HP1.So.1, ,,,,701402,,,UIN,,,Heizprogramm 1 So 1 Start/Ende (Anwender 127)
-w,,HK1.HP1.So.1, ,,,,7014,,,UIN,,,
-r,,HK1.HP1.So.2, ,,,,711402,,,UIN,,,Heizprogramm 1 So 2 Start/Ende (Anwender 127)
-w,,HK1.HP1.So.2, ,,,,7114,,,UIN,,,
-r,,HK1.HP1.So.3, ,,,,721402,,,UIN,,,Heizprogramm 1 So 3 Start/Ende (Anwender 127)
-w,,HK1.HP1.So.3, ,,,,7214,,,UIN,,,
+r,,HK1.HP1.So.1,Heizprogramm 1 So 1 Start/Ende (Anwender 127) ,,,,701402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.So.1, ,,,,7014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP1.So.2,Heizprogramm 1 So 2 Start/Ende (Anwender 127) ,,,,711402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.So.2, ,,,,7114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP1.So.3,Heizprogramm 1 So 3 Start/Ende (Anwender 127) ,,,,721402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.So.3, ,,,,7214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 
 # Parameter Anwender 131 - Heizprogramm 2 Montag
