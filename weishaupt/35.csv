@@ -145,60 +145,60 @@ w,,HK1.Urlaub.Bis.Monat, ,,,,"1F01",,,UIN,,,
 # 255 (0xFF) -> Off
 #   1 (0x01) -> 00:15 Uhr
 #  96 (0x60) -> 24:00 Uhr
-r,,HK1.HP1.Mo.1,Heizprogramm 1 Mo 1 Start/Ende (Anwender 121) ,,,,1014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-w,,HK1.HP1.Mo.1, ,,,,1014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-r,,HK1.HP1.Mo.2,Heizprogramm 1 Mo 2 Start/Ende (Anwender 121) ,,,,1114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-w,,HK1.HP1.Mo.2, ,,,,1114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-r,,HK1.HP1.Mo.3,Heizprogramm 1 Mo 3 Start/Ende (Anwender 121) ,,,,1214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-w,,HK1.HP1.Mo.3, ,,,,1214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP1.Mo.1,Heizprogramm 1 Mo 1 Start/Ende (Anwender 121) ,,,,101402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Mo.1,Heizprogramm 1 Mo 1 Start/Ende (Anwender 121) ,,,,1014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP1.Mo.2,Heizprogramm 1 Mo 2 Start/Ende (Anwender 121) ,,,,111402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Mo.2,Heizprogramm 1 Mo 2 Start/Ende (Anwender 121) ,,,,1114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP1.Mo.3,Heizprogramm 1 Mo 3 Start/Ende (Anwender 121) ,,,,121402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Mo.3,Heizprogramm 1 Mo 3 Start/Ende (Anwender 121) ,,,,1214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 122 - Heizprogramm 1 Dienstag
 r,,HK1.HP1.Di.1,Heizprogramm 1 Di 1 Start/Ende (Anwender 122) ,,,,201402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-w,,HK1.HP1.Di.1, ,,,,2014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Di.1,Heizprogramm 1 Di 1 Start/Ende (Anwender 122) ,,,,2014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 r,,HK1.HP1.Di.2,Heizprogramm 1 Di 2 Start/Ende (Anwender 122) ,,,,211402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-w,,HK1.HP1.Di.2, ,,,,2114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Di.2,Heizprogramm 1 Di 2 Start/Ende (Anwender 122) ,,,,2114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 r,,HK1.HP1.Di.3,Heizprogramm 1 Di 3 Start/Ende (Anwender 122) ,,,,221402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-w,,HK1.HP1.Di.3, ,,,,2214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Di.3,Heizprogramm 1 Di 3 Start/Ende (Anwender 122) ,,,,2214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 123 - Heizprogramm 1 Mittwoch
 r,,HK1.HP1.Mi.1,Heizprogramm 1 Mi 1 Start/Ende (Anwender 123) ,,,,301402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-w,,HK1.HP1.Mi.1, ,,,,3014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Mi.1,Heizprogramm 1 Mi 1 Start/Ende (Anwender 123) ,,,,3014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 r,,HK1.HP1.Mi.2,Heizprogramm 1 Mi 2 Start/Ende (Anwender 123) ,,,,311402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-w,,HK1.HP1.Mi.2, ,,,,3114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Mi.2,Heizprogramm 1 Mi 2 Start/Ende (Anwender 123) ,,,,3114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 r,,HK1.HP1.Mi.3,Heizprogramm 1 Mi 3 Start/Ende (Anwender 123) ,,,,321402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-w,,HK1.HP1.Mi.3, ,,,,3214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Mi.3,Heizprogramm 1 Mi 3 Start/Ende (Anwender 123) ,,,,3214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 124 - Heizprogramm 1 Donnerstag
 r,,HK1.HP1.Do.1,Heizprogramm 1 Do 1 Start/Ende (Anwender 124) ,,,,401402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-w,,HK1.HP1.Do.1, ,,,,4014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Do.1,Heizprogramm 1 Do 1 Start/Ende (Anwender 124) ,,,,4014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 r,,HK1.HP1.Do.2,Heizprogramm 1 Do 2 Start/Ende (Anwender 124) ,,,,411402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-w,,HK1.HP1.Do.2, ,,,,4114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Do.2,Heizprogramm 1 Do 2 Start/Ende (Anwender 124) ,,,,4114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 r,,HK1.HP1.Do.3,Heizprogramm 1 Do 3 Start/Ende (Anwender 124) ,,,,421402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-w,,HK1.HP1.Do.3, ,,,,4214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Do.3,Heizprogramm 1 Do 3 Start/Ende (Anwender 124) ,,,,4214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 125 - Heizprogramm 1 Freitag
 r,,HK1.HP1.Fr.1,Heizprogramm 1 Fr 1 Start/Ende (Anwender 125) ,,,,501402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-w,,HK1.HP1.Fr.1, ,,,,5014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Fr.1,Heizprogramm 1 Fr 1 Start/Ende (Anwender 125) ,,,,5014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 r,,HK1.HP1.Fr.2,Heizprogramm 1 Fr 2 Start/Ende (Anwender 125) ,,,,511402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-w,,HK1.HP1.Fr.2, ,,,,5114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Fr.2,Heizprogramm 1 Fr 2 Start/Ende (Anwender 125) ,,,,5114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 r,,HK1.HP1.Fr.3,Heizprogramm 1 Fr 3 Start/Ende (Anwender 125) ,,,,521402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-w,,HK1.HP1.Fr.3, ,,,,5214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Fr.3,Heizprogramm 1 Fr 3 Start/Ende (Anwender 125) ,,,,5214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 126 - Heizprogramm 1 Samstag
 r,,HK1.HP1.Sa.1,Heizprogramm 1 Sa 1 Start/Ende (Anwender 126) ,,,,601402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-w,,HK1.HP1.Sa.1, ,,,,6014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Sa.1,Heizprogramm 1 Sa 1 Start/Ende (Anwender 126) ,,,,6014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 r,,HK1.HP1.Sa.2,Heizprogramm 1 Sa 2 Start/Ende (Anwender 126) ,,,,611402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-w,,HK1.HP1.Sa.2, ,,,,6114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Sa.2,Heizprogramm 1 Sa 2 Start/Ende (Anwender 126) ,,,,6114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 r,,HK1.HP1.Sa.3,Heizprogramm 1 Sa 3 Start/Ende (Anwender 126) ,,,,621402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-w,,HK1.HP1.Sa.3, ,,,,6214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.Sa.3,Heizprogramm 1 Sa 3 Start/Ende (Anwender 126) ,,,,6214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 127 - Heizprogramm 1 Sonntag
 r,,HK1.HP1.So.1,Heizprogramm 1 So 1 Start/Ende (Anwender 127) ,,,,701402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-w,,HK1.HP1.So.1, ,,,,7014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.So.1,Heizprogramm 1 So 1 Start/Ende (Anwender 127) ,,,,7014,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 r,,HK1.HP1.So.2,Heizprogramm 1 So 2 Start/Ende (Anwender 127) ,,,,711402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-w,,HK1.HP1.So.2, ,,,,7114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.So.2,Heizprogramm 1 So 2 Start/Ende (Anwender 127) ,,,,7114,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 r,,HK1.HP1.So.3,Heizprogramm 1 So 3 Start/Ende (Anwender 127) ,,,,721402,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
-w,,HK1.HP1.So.3, ,,,,7214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP1.So.3,Heizprogramm 1 So 3 Start/Ende (Anwender 127) ,,,,7214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 
 # Parameter Anwender 131 - Heizprogramm 2 Montag
@@ -206,60 +206,60 @@ w,,HK1.HP1.So.3, ,,,,7214,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 # 255 (0xFF) -> Off
 #   1 (0x01) -> 00:15 Uhr
 #  96 (0x60) -> 24:00 Uhr
-r,,HK1.HP2.Mo.1, ,,,,101502,,,UIN,,,Heizprogramm 2 Mo 1 Start/Ende (Anwender 131)
-w,,HK1.HP2.Mo.1, ,,,,1015,,,UIN,,,
-r,,HK1.HP2.Mo.2, ,,,,111502,,,UIN,,,Heizprogramm 2 Mo 2 Start/Ende (Anwender 131)
-w,,HK1.HP2.Mo.2, ,,,,1115,,,UIN,,,
-r,,HK1.HP2.Mo.3, ,,,,121502,,,UIN,,,Heizprogramm 2 Mo 3 Start/Ende (Anwender 131)
-w,,HK1.HP2.Mo.3, ,,,,1215,,,UIN,,,
+r,,HK1.HP2.Mo.1,Heizprogramm 2 Mo 1 Start/Ende (Anwender 131) ,,,,101502,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP2.Mo.1,Heizprogramm 2 Mo 1 Start/Ende (Anwender 131) ,,,,1015,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP2.Mo.2,Heizprogramm 2 Mo 2 Start/Ende (Anwender 131) ,,,,111502,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP2.Mo.2,Heizprogramm 2 Mo 2 Start/Ende (Anwender 131) ,,,,1115,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP2.Mo.3,Heizprogramm 2 Mo 3 Start/Ende (Anwender 131) ,,,,121502,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP2.Mo.3,Heizprogramm 2 Mo 3 Start/Ende (Anwender 131) ,,,,1215,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 132 - Heizprogramm 2 Dienstag
-r,,HK1.HP2.Di.1, ,,,,201502,,,UIN,,,Heizprogramm 2 Di 1 Start/Ende (Anwender 132)
-w,,HK1.HP2.Di.1, ,,,,2015,,,UIN,,,
-r,,HK1.HP2.Di.2, ,,,,211502,,,UIN,,,Heizprogramm 2 Di 2 Start/Ende (Anwender 132)
-w,,HK1.HP2.Di.2, ,,,,2115,,,UIN,,,
-r,,HK1.HP2.Di.3, ,,,,221502,,,UIN,,,Heizprogramm 2 Di 3 Start/Ende (Anwender 132)
-w,,HK1.HP2.Di.3, ,,,,2215,,,UIN,,,
+r,,HK1.HP2.Di.1,Heizprogramm 2 Di 1 Start/Ende (Anwender 132) ,,,,201502,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP2.Di.1,Heizprogramm 2 Di 1 Start/Ende (Anwender 132) ,,,,2015,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP2.Di.2,Heizprogramm 2 Di 2 Start/Ende (Anwender 132) ,,,,211502,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP2.Di.2,Heizprogramm 2 Di 2 Start/Ende (Anwender 132) ,,,,2115,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP2.Di.3,Heizprogramm 2 Di 3 Start/Ende (Anwender 132) ,,,,221502,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP2.Di.3,Heizprogramm 2 Di 3 Start/Ende (Anwender 132) ,,,,2215,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 133 - Heizprogramm 2 Mittwoch
-r,,HK1.HP2.Mi.1, ,,,,301502,,,UIN,,,Heizprogramm 2 Mi 1 Start/Ende (Anwender 133)
-w,,HK1.HP2.Mi.1, ,,,,3015,,,UIN,,,
-r,,HK1.HP2.Mi.2, ,,,,311502,,,UIN,,,Heizprogramm 2 Mi 2 Start/Ende (Anwender 133)
-w,,HK1.HP2.Mi.2, ,,,,3115,,,UIN,,,
-r,,HK1.HP2.Mi.3, ,,,,321502,,,UIN,,,Heizprogramm 2 Mi 3 Start/Ende (Anwender 133)
-w,,HK1.HP2.Mi.3, ,,,,3215,,,UIN,,,
+r,,HK1.HP2.Mi.1,Heizprogramm 2 Mi 1 Start/Ende (Anwender 133) ,,,,301502,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP2.Mi.1,Heizprogramm 2 Mi 1 Start/Ende (Anwender 133) ,,,,3015,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP2.Mi.2,Heizprogramm 2 Mi 2 Start/Ende (Anwender 133) ,,,,311502,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP2.Mi.2,Heizprogramm 2 Mi 2 Start/Ende (Anwender 133) ,,,,3115,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP2.Mi.3,Heizprogramm 2 Mi 3 Start/Ende (Anwender 133) ,,,,321502,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP2.Mi.3,Heizprogramm 2 Mi 3 Start/Ende (Anwender 133) ,,,,3215,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 134 - Heizprogramm 2 Donnerstag
-r,,HK1.HP2.Do.1, ,,,,401502,,,UIN,,,Heizprogramm 2 Do 1 Start/Ende (Anwender 134)
-w,,HK1.HP2.Do.1, ,,,,4015,,,UIN,,,
-r,,HK1.HP2.Do.2, ,,,,411502,,,UIN,,,Heizprogramm 2 Do 2 Start/Ende (Anwender 134)
-w,,HK1.HP2.Do.2, ,,,,4115,,,UIN,,,
-r,,HK1.HP2.Do.3, ,,,,421502,,,UIN,,,Heizprogramm 2 Do 3 Start/Ende (Anwender 134)
-w,,HK1.HP2.Do.3, ,,,,4215,,,UIN,,,
+r,,HK1.HP2.Do.1,Heizprogramm 2 Do 1 Start/Ende (Anwender 134) ,,,,401502,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP2.Do.1,Heizprogramm 2 Do 1 Start/Ende (Anwender 134) ,,,,4015,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP2.Do.2,Heizprogramm 2 Do 2 Start/Ende (Anwender 134) ,,,,411502,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP2.Do.2,Heizprogramm 2 Do 2 Start/Ende (Anwender 134) ,,,,4115,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP2.Do.3,Heizprogramm 2 Do 3 Start/Ende (Anwender 134) ,,,,421502,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP2.Do.3,Heizprogramm 2 Do 3 Start/Ende (Anwender 134) ,,,,4215,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 135 - Heizprogramm 2 Freitag
-r,,HK1.HP2.Fr.1, ,,,,501502,,,UIN,,,Heizprogramm 2 Fr 1 Start/Ende (Anwender 135)
-w,,HK1.HP2.Fr.1, ,,,,5015,,,UIN,,,
-r,,HK1.HP2.Fr.2, ,,,,511502,,,UIN,,,Heizprogramm 2 Fr 2 Start/Ende (Anwender 135)
-w,,HK1.HP2.Fr.2, ,,,,5115,,,UIN,,,
-r,,HK1.HP2.Fr.3, ,,,,521502,,,UIN,,,Heizprogramm 2 Fr 3 Start/Ende (Anwender 135)
-w,,HK1.HP2.Fr.3, ,,,,5215,,,UIN,,,
+r,,HK1.HP2.Fr.1,Heizprogramm 2 Fr 1 Start/Ende (Anwender 135) ,,,,501502,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP2.Fr.1,Heizprogramm 2 Fr 1 Start/Ende (Anwender 135) ,,,,5015,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP2.Fr.2,Heizprogramm 2 Fr 2 Start/Ende (Anwender 135) ,,,,511502,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP2.Fr.2,Heizprogramm 2 Fr 2 Start/Ende (Anwender 135) ,,,,5115,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP2.Fr.3,Heizprogramm 2 Fr 3 Start/Ende (Anwender 135) ,,,,521502,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP2.Fr.3,Heizprogramm 2 Fr 3 Start/Ende (Anwender 135) ,,,,5215,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 136 - Heizprogramm 2 Samstag
-r,,HK1.HP2.Sa.1, ,,,,601502,,,UIN,,,Heizprogramm 2 Sa 1 Start/Ende (Anwender 136)
-w,,HK1.HP2.Sa.1, ,,,,6015,,,UIN,,,
-r,,HK1.HP2.Sa.2, ,,,,611502,,,UIN,,,Heizprogramm 2 Sa 2 Start/Ende (Anwender 136)
-w,,HK1.HP2.Sa.2, ,,,,6115,,,UIN,,,
-r,,HK1.HP2.Sa.3, ,,,,621502,,,UIN,,,Heizprogramm 2 Sa 3 Start/Ende (Anwender 136)
-w,,HK1.HP2.Sa.3, ,,,,6215,,,UIN,,,
+r,,HK1.HP2.Sa.1,Heizprogramm 2 Sa 1 Start/Ende (Anwender 136) ,,,,601502,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP2.Sa.1,Heizprogramm 2 Sa 1 Start/Ende (Anwender 136) ,,,,6015,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP2.Sa.2,Heizprogramm 2 Sa 2 Start/Ende (Anwender 136) ,,,,611502,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP2.Sa.2,Heizprogramm 2 Sa 2 Start/Ende (Anwender 136) ,,,,6115,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP2.Sa.3,Heizprogramm 2 Sa 3 Start/Ende (Anwender 136) ,,,,621502,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP2.Sa.3,Heizprogramm 2 Sa 3 Start/Ende (Anwender 136) ,,,,6215,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 137 - Heizprogramm 2 Sonntag
-r,,HK1.HP2.So.1, ,,,,701502,,,UIN,,,Heizprogramm 2 So 1 Start/Ende (Anwender 137)
-w,,HK1.HP2.So.1, ,,,,7015,,,UIN,,,
-r,,HK1.HP2.So.2, ,,,,711502,,,UIN,,,Heizprogramm 2 So 2 Start/Ende (Anwender 137)
-w,,HK1.HP2.So.2, ,,,,7115,,,UIN,,,
-r,,HK1.HP2.So.3, ,,,,721502,,,UIN,,,Heizprogramm 2 So 3 Start/Ende (Anwender 137)
-w,,HK1.HP2.So.3, ,,,,7215,,,UIN,,,
+r,,HK1.HP2.So.1,Heizprogramm 2 So 1 Start/Ende (Anwender 137) ,,,,701502,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP2.So.1,Heizprogramm 2 So 1 Start/Ende (Anwender 137) ,,,,7015,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP2.So.2,Heizprogramm 2 So 2 Start/Ende (Anwender 137) ,,,,711502,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP2.So.2,Heizprogramm 2 So 2 Start/Ende (Anwender 137) ,,,,7115,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP2.So.3,Heizprogramm 2 So 3 Start/Ende (Anwender 137) ,,,,721502,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP2.So.3,Heizprogramm 2 So 3 Start/Ende (Anwender 137) ,,,,7215,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 
 # Parameter Anwender 141 - Heizprogramm 3 Montag
@@ -267,60 +267,60 @@ w,,HK1.HP2.So.3, ,,,,7215,,,UIN,,,
 # 255 (0xFF) -> Off
 #   1 (0x01) -> 00:15 Uhr
 #  96 (0x60) -> 24:00 Uhr
-r,,HK1.HP3.Mo.1, ,,,,101602,,,UIN,,,Heizprogramm 3 Mo 1 Start/Ende (Anwender 141)
-w,,HK1.HP3.Mo.1, ,,,,1016,,,UIN,,,
-r,,HK1.HP3.Mo.2, ,,,,111602,,,UIN,,,Heizprogramm 3 Mo 2 Start/Ende (Anwender 141)
-w,,HK1.HP3.Mo.2, ,,,,1116,,,UIN,,,
-r,,HK1.HP3.Mo.3, ,,,,121602,,,UIN,,,Heizprogramm 3 Mo 3 Start/Ende (Anwender 141)
-w,,HK1.HP3.Mo.3, ,,,,1216,,,UIN,,,
+r,,HK1.HP3.Mo.1,Heizprogramm 3 Mo 1 Start/Ende (Anwender 141) ,,,,101602,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP3.Mo.1,Heizprogramm 3 Mo 1 Start/Ende (Anwender 141) ,,,,1016,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP3.Mo.2,Heizprogramm 3 Mo 2 Start/Ende (Anwender 141) ,,,,111602,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP3.Mo.2,Heizprogramm 3 Mo 2 Start/Ende (Anwender 141) ,,,,1116,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP3.Mo.3,Heizprogramm 3 Mo 3 Start/Ende (Anwender 141) ,,,,121602,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP3.Mo.3,Heizprogramm 3 Mo 3 Start/Ende (Anwender 141) ,,,,1216,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 142 - Heizprogramm 3 Dienstag
-r,,HK1.HP3.Di.1, ,,,,201602,,,UIN,,,Heizprogramm 3 Di 1 Start/Ende (Anwender 142)
-w,,HK1.HP3.Di.1, ,,,,2016,,,UIN,,,
-r,,HK1.HP3.Di.2, ,,,,211602,,,UIN,,,Heizprogramm 3 Di 2 Start/Ende (Anwender 142)
-w,,HK1.HP3.Di.2, ,,,,2116,,,UIN,,,
-r,,HK1.HP3.Di.3, ,,,,221602,,,UIN,,,Heizprogramm 3 Di 3 Start/Ende (Anwender 142)
-w,,HK1.HP3.Di.3, ,,,,2216,,,UIN,,,
+r,,HK1.HP3.Di.1,Heizprogramm 3 Di 1 Start/Ende (Anwender 142) ,,,,201602,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP3.Di.1,Heizprogramm 3 Di 1 Start/Ende (Anwender 142) ,,,,2016,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP3.Di.2,Heizprogramm 3 Di 2 Start/Ende (Anwender 142) ,,,,211602,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP3.Di.2,Heizprogramm 3 Di 2 Start/Ende (Anwender 142) ,,,,2116,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP3.Di.3,Heizprogramm 3 Di 3 Start/Ende (Anwender 142) ,,,,221602,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP3.Di.3,Heizprogramm 3 Di 3 Start/Ende (Anwender 142) ,,,,2216,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 143 - Heizprogramm 3 Mittwoch
-r,,HK1.HP3.Mi.1, ,,,,301602,,,UIN,,,Heizprogramm 3 Mi 1 Start/Ende (Anwender 143)
-w,,HK1.HP3.Mi.1, ,,,,3016,,,UIN,,,
-r,,HK1.HP3.Mi.2, ,,,,311602,,,UIN,,,Heizprogramm 3 Mi 2 Start/Ende (Anwender 143)
-w,,HK1.HP3.Mi.2, ,,,,3116,,,UIN,,,
-r,,HK1.HP3.Mi.3, ,,,,321602,,,UIN,,,Heizprogramm 3 Mi 3 Start/Ende (Anwender 143)
-w,,HK1.HP3.Mi.3, ,,,,3216,,,UIN,,,
+r,,HK1.HP3.Mi.1,Heizprogramm 3 Mi 1 Start/Ende (Anwender 143) ,,,,301602,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP3.Mi.1,Heizprogramm 3 Mi 1 Start/Ende (Anwender 143) ,,,,3016,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP3.Mi.2,Heizprogramm 3 Mi 2 Start/Ende (Anwender 143) ,,,,311602,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP3.Mi.2,Heizprogramm 3 Mi 2 Start/Ende (Anwender 143) ,,,,3116,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP3.Mi.3,Heizprogramm 3 Mi 3 Start/Ende (Anwender 143) ,,,,321602,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP3.Mi.3,Heizprogramm 3 Mi 3 Start/Ende (Anwender 143) ,,,,3216,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 144 - Heizprogramm 3 Donnerstag
-r,,HK1.HP3.Do.1, ,,,,401602,,,UIN,,,Heizprogramm 3 Do 1 Start/Ende (Anwender 144)
-w,,HK1.HP3.Do.1, ,,,,4016,,,UIN,,,
-r,,HK1.HP3.Do.2, ,,,,411602,,,UIN,,,Heizprogramm 3 Do 2 Start/Ende (Anwender 144)
-w,,HK1.HP3.Do.2, ,,,,4116,,,UIN,,,
-r,,HK1.HP3.Do.3, ,,,,421602,,,UIN,,,Heizprogramm 3 Do 3 Start/Ende (Anwender 144)
-w,,HK1.HP3.Do.3, ,,,,4216,,,UIN,,,
+r,,HK1.HP3.Do.1,Heizprogramm 3 Do 1 Start/Ende (Anwender 144) ,,,,401602,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP3.Do.1,Heizprogramm 3 Do 1 Start/Ende (Anwender 144) ,,,,4016,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP3.Do.2,Heizprogramm 3 Do 2 Start/Ende (Anwender 144) ,,,,411602,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP3.Do.2,Heizprogramm 3 Do 2 Start/Ende (Anwender 144) ,,,,4116,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP3.Do.3,Heizprogramm 3 Do 3 Start/Ende (Anwender 144) ,,,,421602,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP3.Do.3,Heizprogramm 3 Do 3 Start/Ende (Anwender 144) ,,,,4216,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 145 - Heizprogramm 3 Freitag
-r,,HK1.HP3.Fr.1, ,,,,501602,,,UIN,,,Heizprogramm 3 Fr 1 Start/Ende (Anwender 145)
-w,,HK1.HP3.Fr.1, ,,,,5016,,,UIN,,,
-r,,HK1.HP3.Fr.2, ,,,,511602,,,UIN,,,Heizprogramm 3 Fr 2 Start/Ende (Anwender 145)
-w,,HK1.HP3.Fr.2, ,,,,5116,,,UIN,,,
-r,,HK1.HP3.Fr.3, ,,,,521602,,,UIN,,,Heizprogramm 3 Fr 3 Start/Ende (Anwender 145)
-w,,HK1.HP3.Fr.3, ,,,,5216,,,UIN,,,
+r,,HK1.HP3.Fr.1,Heizprogramm 3 Fr 1 Start/Ende (Anwender 145) ,,,,501602,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP3.Fr.1,Heizprogramm 3 Fr 1 Start/Ende (Anwender 145) ,,,,5016,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP3.Fr.2,Heizprogramm 3 Fr 2 Start/Ende (Anwender 145) ,,,,511602,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP3.Fr.2,Heizprogramm 3 Fr 2 Start/Ende (Anwender 145) ,,,,5116,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP3.Fr.3,Heizprogramm 3 Fr 3 Start/Ende (Anwender 145) ,,,,521602,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP3.Fr.3,Heizprogramm 3 Fr 3 Start/Ende (Anwender 145) ,,,,5216,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 146 - Heizprogramm 3 Samstag
-r,,HK1.HP3.Sa.1, ,,,,601602,,,UIN,,,Heizprogramm 3 Sa 1 Start/Ende (Anwender 146)
-w,,HK1.HP3.Sa.1, ,,,,6016,,,UIN,,,
-r,,HK1.HP3.Sa.2, ,,,,611602,,,UIN,,,Heizprogramm 3 Sa 2 Start/Ende (Anwender 146)
-w,,HK1.HP3.Sa.2, ,,,,6116,,,UIN,,,
-r,,HK1.HP3.Sa.3, ,,,,621602,,,UIN,,,Heizprogramm 3 Sa 3 Start/Ende (Anwender 146)
-w,,HK1.HP3.Sa.3, ,,,,6216,,,UIN,,,
+r,,HK1.HP3.Sa.1,Heizprogramm 3 Sa 1 Start/Ende (Anwender 146) ,,,,601602,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP3.Sa.1,Heizprogramm 3 Sa 1 Start/Ende (Anwender 146) ,,,,6016,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP3.Sa.2,Heizprogramm 3 Sa 2 Start/Ende (Anwender 146) ,,,,611602,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP3.Sa.2,Heizprogramm 3 Sa 2 Start/Ende (Anwender 146) ,,,,6116,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP3.Sa.3,Heizprogramm 3 Sa 3 Start/Ende (Anwender 146) ,,,,621602,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP3.Sa.3,Heizprogramm 3 Sa 3 Start/Ende (Anwender 146) ,,,,6216,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 147 - Heizprogramm 3 Sonntag
-r,,HK1.HP3.So.1, ,,,,701602,,,UIN,,,Heizprogramm 3 So 1 Start/Ende (Anwender 147)
-w,,HK1.HP3.So.1, ,,,,7016,,,UIN,,,
-r,,HK1.HP3.So.2, ,,,,711602,,,UIN,,,Heizprogramm 3 So 2 Start/Ende (Anwender 147)
-w,,HK1.HP3.So.2, ,,,,7116,,,UIN,,,
-r,,HK1.HP3.So.3, ,,,,721602,,,UIN,,,Heizprogramm 3 So 3 Start/Ende (Anwender 147)
-w,,HK1.HP3.So.3, ,,,,7216,,,UIN,,,
+r,,HK1.HP3.So.1,Heizprogramm 3 So 1 Start/Ende (Anwender 147) ,,,,701602,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP3.So.1,Heizprogramm 3 So 1 Start/Ende (Anwender 147) ,,,,7016,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP3.So.2,Heizprogramm 3 So 2 Start/Ende (Anwender 147) ,,,,711602,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP3.So.2,Heizprogramm 3 So 2 Start/Ende (Anwender 147) ,,,,7116,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.HP3.So.3,Heizprogramm 3 So 3 Start/Ende (Anwender 147) ,,,,721602,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.HP3.So.3,Heizprogramm 3 So 3 Start/Ende (Anwender 147) ,,,,7216,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 
 # Parameter Anwender 151 - Warmwasserprogramm Montag
@@ -328,117 +328,117 @@ w,,HK1.HP3.So.3, ,,,,7216,,,UIN,,,
 # 255 (0xFF) -> Off
 #   1 (0x01) -> 00:15 Uhr
 #  96 (0x60) -> 24:00 Uhr
-r,,HK1.WP.Mo.1, ,,,,101702,,,UIN,,,Warmwasserprogramm Mo 1 Start/Ende (Anwender 151)
-w,,HK1.WP.Mo.1, ,,,,1017,,,UIN,,,
-r,,HK1.WP.Mo.2, ,,,,111702,,,UIN,,,Warmwasserprogramm Mo 2 Start/Ende (Anwender 151)
-w,,HK1.WP.Mo.2, ,,,,1117,,,UIN,,,
-r,,HK1.WP.Mo.3, ,,,,121702,,,UIN,,,Warmwasserprogramm Mo 3 Start/Ende (Anwender 151)
-w,,HK1.WP.Mo.3, ,,,,1217,,,UIN,,,
+r,,HK1.WP.Mo.1,Warmwasserprogramm Mo 1 Start/Ende (Anwender 151) ,,,,101702,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.WP.Mo.1,Warmwasserprogramm Mo 1 Start/Ende (Anwender 151) ,,,,1017,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.WP.Mo.2,Warmwasserprogramm Mo 2 Start/Ende (Anwender 151) ,,,,111702,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.WP.Mo.2,Warmwasserprogramm Mo 2 Start/Ende (Anwender 151) ,,,,1117,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.WP.Mo.3,Warmwasserprogramm Mo 3 Start/Ende (Anwender 151) ,,,,121702,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.WP.Mo.3,Warmwasserprogramm Mo 3 Start/Ende (Anwender 151) ,,,,1217,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 152 - Warmwasserprogramm Dienstag
-r,,HK1.WP.Di.1, ,,,,201702,,,UIN,,,Warmwasserprogramm Di 1 Start/Ende (Anwender 152)
-w,,HK1.WP.Di.1, ,,,,2017,,,UIN,,,
-r,,HK1.WP.Di.2, ,,,,211702,,,UIN,,,Warmwasserprogramm Di 2 Start/Ende (Anwender 152)
-w,,HK1.WP.Di.2, ,,,,2117,,,UIN,,,
-r,,HK1.WP.Di.3, ,,,,221702,,,UIN,,,Warmwasserprogramm Di 3 Start/Ende (Anwender 152)
-w,,HK1.WP.Di.3, ,,,,2217,,,UIN,,,
+r,,HK1.WP.Di.1,Warmwasserprogramm Di 1 Start/Ende (Anwender 152) ,,,,201702,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.WP.Di.1,Warmwasserprogramm Di 1 Start/Ende (Anwender 152) ,,,,2017,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.WP.Di.2,Warmwasserprogramm Di 2 Start/Ende (Anwender 152) ,,,,211702,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.WP.Di.2,Warmwasserprogramm Di 2 Start/Ende (Anwender 152) ,,,,2117,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.WP.Di.3,Warmwasserprogramm Di 3 Start/Ende (Anwender 152) ,,,,221702,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.WP.Di.3,Warmwasserprogramm Di 3 Start/Ende (Anwender 152) ,,,,2217,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 153 - Warmwasserprogramm Mittwoch
-r,,HK1.WP.Mi.1, ,,,,301702,,,UIN,,,Warmwasserprogramm Mi 1 Start/Ende (Anwender 153)
-w,,HK1.WP.Mi.1, ,,,,3017,,,UIN,,,
-r,,HK1.WP.Mi.2, ,,,,311702,,,UIN,,,Warmwasserprogramm Mi 2 Start/Ende (Anwender 153)
-w,,HK1.WP.Mi.2, ,,,,3117,,,UIN,,,
-r,,HK1.WP.Mi.3, ,,,,321702,,,UIN,,,Warmwasserprogramm Mi 3 Start/Ende (Anwender 153)
-w,,HK1.WP.Mi.3, ,,,,3217,,,UIN,,,
+r,,HK1.WP.Mi.1,Warmwasserprogramm Mi 1 Start/Ende (Anwender 153) ,,,,301702,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.WP.Mi.1,Warmwasserprogramm Mi 1 Start/Ende (Anwender 153) ,,,,3017,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.WP.Mi.2,Warmwasserprogramm Mi 2 Start/Ende (Anwender 153) ,,,,311702,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.WP.Mi.2,Warmwasserprogramm Mi 2 Start/Ende (Anwender 153) ,,,,3117,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.WP.Mi.3,Warmwasserprogramm Mi 3 Start/Ende (Anwender 153) ,,,,321702,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.WP.Mi.3,Warmwasserprogramm Mi 3 Start/Ende (Anwender 153) ,,,,3217,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 154 - Warmwasserprogramm Donnerstag
-r,,HK1.WP.Do.1, ,,,,401702,,,UIN,,,Warmwasserprogramm D0 1 Start/Ende (Anwender 154)
-w,,HK1.WP.Do.1, ,,,,4017,,,UIN,,,
-r,,HK1.WP.Do.2, ,,,,411702,,,UIN,,,Warmwasserprogramm Do 2 Start/Ende (Anwender 154)
-w,,HK1.WP.Do.2, ,,,,4117,,,UIN,,,
-r,,HK1.WP.Do.3, ,,,,421702,,,UIN,,,Warmwasserprogramm Do 3 Start/Ende (Anwender 154)
-w,,HK1.WP.Do.3, ,,,,4217,,,UIN,,,
+r,,HK1.WP.Do.1,Warmwasserprogramm D0 1 Start/Ende (Anwender 154) ,,,,401702,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.WP.Do.1,Warmwasserprogramm D0 1 Start/Ende (Anwender 154) ,,,,4017,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.WP.Do.2,Warmwasserprogramm D0 2 Start/Ende (Anwender 154) ,,,,411702,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.WP.Do.2,Warmwasserprogramm D0 2 Start/Ende (Anwender 154) ,,,,4117,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.WP.Do.3,Warmwasserprogramm D0 3 Start/Ende (Anwender 154) ,,,,421702,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.WP.Do.3,Warmwasserprogramm D0 3 Start/Ende (Anwender 154) ,,,,4217,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 155 - Warmwasserprogramm Freitag
-r,,HK1.WP.Fr.1, ,,,,501702,,,UIN,,,Warmwasserprogramm Fr 1 Start/Ende (Anwender 155)
-w,,HK1.WP.Fr.1, ,,,,5017,,,UIN,,,
-r,,HK1.WP.Fr.2, ,,,,511702,,,UIN,,,Warmwasserprogramm Fr 2 Start/Ende (Anwender 155)
-w,,HK1.WP.Fr.2, ,,,,5117,,,UIN,,,
-r,,HK1.WP.Fr.3, ,,,,521702,,,UIN,,,Warmwasserprogramm Fr 3 Start/Ende (Anwender 155)
-w,,HK1.WP.Fr.3, ,,,,5217,,,UIN,,,
+r,,HK1.WP.Fr.1,Warmwasserprogramm Fr 1 Start/Ende (Anwender 155) ,,,,501702,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.WP.Fr.1,Warmwasserprogramm Fr 1 Start/Ende (Anwender 155) ,,,,5017,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.WP.Fr.2,Warmwasserprogramm Fr 2 Start/Ende (Anwender 155) ,,,,511702,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.WP.Fr.2,Warmwasserprogramm Fr 2 Start/Ende (Anwender 155) ,,,,5117,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.WP.Fr.3,Warmwasserprogramm Fr 3 Start/Ende (Anwender 155) ,,,,521702,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.WP.Fr.3,Warmwasserprogramm Fr 3 Start/Ende (Anwender 155) ,,,,5217,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 156 - Warmwasserprogramm Samstag
-r,,HK1.WP.Sa.1, ,,,,601702,,,UIN,,,Warmwasserprogramm Sa 1 Start/Ende (Anwender 156)
-w,,HK1.WP.Sa.1, ,,,,6017,,,UIN,,,
-r,,HK1.WP.Sa.2, ,,,,611702,,,UIN,,,Warmwasserprogramm Sa 2 Start/Ende (Anwender 156)
-w,,HK1.WP.Sa.2, ,,,,6117,,,UIN,,,
-r,,HK1.WP.Sa.3, ,,,,621702,,,UIN,,,Warmwasserprogramm Sa 3 Start/Ende (Anwender 156)
-w,,HK1.WP.Sa.3, ,,,,6217,,,UIN,,,
+r,,HK1.WP.Sa.1,Warmwasserprogramm Sa 1 Start/Ende (Anwender 156) ,,,,601702,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.WP.Sa.1,Warmwasserprogramm Sa 1 Start/Ende (Anwender 156) ,,,,6017,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.WP.Sa.2,Warmwasserprogramm Sa 2 Start/Ende (Anwender 156) ,,,,611702,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.WP.Sa.2,Warmwasserprogramm Sa 2 Start/Ende (Anwender 156) ,,,,6117,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.WP.Sa.3,Warmwasserprogramm Sa 3 Start/Ende (Anwender 156) ,,,,621702,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.WP.Sa.3,Warmwasserprogramm Sa 3 Start/Ende (Anwender 156) ,,,,6217,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 157 - Warmwasserprogramm Sonntag
-r,,HK1.WP.So.1, ,,,,701702,,,UIN,,,Warmwasserprogramm So 1 Start/Ende (Anwender 157)
-w,,HK1.WP.So.1, ,,,,7017,,,UIN,,,
-r,,HK1.WP.So.2, ,,,,711702,,,UIN,,,Warmwasserprogramm So 2 Start/Ende (Anwender 157)
-w,,HK1.WP.So.2, ,,,,7117,,,UIN,,,
-r,,HK1.WP.So.3, ,,,,721702,,,UIN,,,Warmwasserprogramm So 3 Start/Ende (Anwender 157)
-w,,HK1.WP.So.3, ,,,,7217,,,UIN,,,
+r,,HK1.WP.So.1,Warmwasserprogramm So 1 Start/Ende (Anwender 157) ,,,,701702,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.WP.So.1,Warmwasserprogramm So 1 Start/Ende (Anwender 157) ,,,,7017,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.WP.So.2,Warmwasserprogramm So 2 Start/Ende (Anwender 157) ,,,,711702,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.WP.So.2,Warmwasserprogramm So 2 Start/Ende (Anwender 157) ,,,,7117,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.WP.So.3,Warmwasserprogramm So 3 Start/Ende (Anwender 157) ,,,,721702,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.WP.So.3,Warmwasserprogramm So 3 Start/Ende (Anwender 157) ,,,,7217,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 161 - Zirkulationsprogramm Montag
 # Wert * 15 Minuten
 # 255 (0xFF) -> Off
 #   1 (0x01) -> 00:15 Uhr
 #  96 (0x60) -> 24:00 Uhr
-r,,HK1.ZP.Mo.1, ,,,,101A02,,,UIN,,,Zirkulationsprogramm Mo 1 Start/Ende (Anwender 161)
-w,,HK1.ZP.Mo.1, ,,,,101A,,,UIN,,,
-r,,HK1.ZP.Mo.2, ,,,,111A02,,,UIN,,,Zirkulationsprogramm Mo 2 Start/Ende (Anwender 161)
-w,,HK1.ZP.Mo.2, ,,,,111A,,,UIN,,,
-r,,HK1.ZP.Mo.3, ,,,,121A02,,,UIN,,,Zirkulationsprogramm Mo 3 Start/Ende (Anwender 161)
-w,,HK1.ZP.Mo.3, ,,,,121A,,,UIN,,,
+r,,HK1.ZP.Mo.1,Zirkulationsprogramm Mo 1 Start/Ende (Anwender 161) ,,,,101A02,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.ZP.Mo.1,Zirkulationsprogramm Mo 1 Start/Ende (Anwender 161) ,,,,101A,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.ZP.Mo.2,Zirkulationsprogramm Mo 2 Start/Ende (Anwender 161) ,,,,111A02,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.ZP.Mo.2,Zirkulationsprogramm Mo 2 Start/Ende (Anwender 161) ,,,,111A,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.ZP.Mo.3,Zirkulationsprogramm Mo 3 Start/Ende (Anwender 161) ,,,,121A02,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.ZP.Mo.3,Zirkulationsprogramm Mo 3 Start/Ende (Anwender 161) ,,,,121A,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 162 - Zirkulationsprogramm Dienstag
-r,,HK1.ZP.Di.1, ,,,,201A02,,,UIN,,,Zirkulationsprogramm Di 1 Start/Ende (Anwender 162)
-w,,HK1.ZP.Di.1, ,,,,201A,,,UIN,,,
-r,,HK1.ZP.Di.2, ,,,,211A02,,,UIN,,,Zirkulationsprogramm Di 2 Start/Ende (Anwender 162)
-w,,HK1.ZP.Di.2, ,,,,211A,,,UIN,,,
-r,,HK1.ZP.Di.3, ,,,,221A02,,,UIN,,,Zirkulationsprogramm Di 3 Start/Ende (Anwender 162)
-w,,HK1.ZP.Di.3, ,,,,221A,,,UIN,,,
+r,,HK1.ZP.Di.1,Zirkulationsprogramm Di 1 Start/Ende (Anwender 162) ,,,,201A02,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.ZP.Di.1,Zirkulationsprogramm Di 1 Start/Ende (Anwender 162) ,,,,201A,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.ZP.Di.2,Zirkulationsprogramm Di 2 Start/Ende (Anwender 162) ,,,,211A02,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.ZP.Di.2,Zirkulationsprogramm Di 2 Start/Ende (Anwender 162) ,,,,211A,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.ZP.Di.3,Zirkulationsprogramm Di 3 Start/Ende (Anwender 162) ,,,,221A02,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.ZP.Di.3,Zirkulationsprogramm Di 3 Start/Ende (Anwender 162) ,,,,221A,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 163 - Zirkulationsprogramm Mittwoch
-r,,HK1.ZP.Mi.1, ,,,,301A02,,,UIN,,,Zirkulationsprogramm Mi 1 Start/Ende (Anwender 163)
-w,,HK1.ZP.Mi.1, ,,,,301A,,,UIN,,,
-r,,HK1.ZP.Mi.2, ,,,,311A02,,,UIN,,,Zirkulationsprogramm Mi 2 Start/Ende (Anwender 163)
-w,,HK1.ZP.Mi.2, ,,,,311A,,,UIN,,,
-r,,HK1.ZP.Mi.3, ,,,,321A02,,,UIN,,,Zirkulationsprogramm Mi 3 Start/Ende (Anwender 163)
-w,,HK1.ZP.Mi.3, ,,,,321A,,,UIN,,,
+r,,HK1.ZP.Mi.1,Zirkulationsprogramm Mi 1 Start/Ende (Anwender 163) ,,,,301A02,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.ZP.Mi.1,Zirkulationsprogramm Mi 1 Start/Ende (Anwender 163) ,,,,301A,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.ZP.Mi.2,Zirkulationsprogramm Mi 2 Start/Ende (Anwender 163) ,,,,311A02,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.ZP.Mi.2,Zirkulationsprogramm Mi 2 Start/Ende (Anwender 163) ,,,,311A,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.ZP.Mi.3,Zirkulationsprogramm Mi 3 Start/Ende (Anwender 163) ,,,,321A02,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.ZP.Mi.3,Zirkulationsprogramm Mi 3 Start/Ende (Anwender 163) ,,,,321A,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 164 - Zirkulationsprogramm Donnerstag
-r,,HK1.ZP.Do.1, ,,,,401A02,,,UIN,,,Zirkulationsprogramm Do 1 Start/Ende (Anwender 164)
-w,,HK1.ZP.Do.1, ,,,,401A,,,UIN,,,
-r,,HK1.ZP.Do.2, ,,,,411A02,,,UIN,,,Zirkulationsprogramm Do 2 Start/Ende (Anwender 164)
-w,,HK1.ZP.Do.2, ,,,,411A,,,UIN,,,
-r,,HK1.ZP.Do.3, ,,,,421A02,,,UIN,,,Zirkulationsprogramm Do 3 Start/Ende (Anwender 164)
-w,,HK1.ZP.Do.3, ,,,,421A,,,UIN,,,
+r,,HK1.ZP.Do.1,Zirkulationsprogramm Do 1 Start/Ende (Anwender 164) ,,,,401A02,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.ZP.Do.1,Zirkulationsprogramm Do 1 Start/Ende (Anwender 164) ,,,,401A,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.ZP.Do.2,Zirkulationsprogramm Do 2 Start/Ende (Anwender 164) ,,,,411A02,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.ZP.Do.2,Zirkulationsprogramm Do 2 Start/Ende (Anwender 164) ,,,,411A,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.ZP.Do.3,Zirkulationsprogramm Do 3 Start/Ende (Anwender 164) ,,,,421A02,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.ZP.Do.3,Zirkulationsprogramm Do 3 Start/Ende (Anwender 164) ,,,,421A,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 165 - Zirkulationsprogramm Freitag
-r,,HK1.ZP.Fr.1, ,,,,501A02,,,UIN,,,Zirkulationsprogramm Fr 1 Start/Ende (Anwender 165)
-w,,HK1.ZP.Fr.1, ,,,,501A,,,UIN,,,
-r,,HK1.ZP.Fr.2, ,,,,511A02,,,UIN,,,Zirkulationsprogramm Fr 2 Start/Ende (Anwender 165)
-w,,HK1.ZP.Fr.2, ,,,,511A,,,UIN,,,
-r,,HK1.ZP.Fr.3, ,,,,521A02,,,UIN,,,Zirkulationsprogramm Fr 3 Start/Ende (Anwender 165)
-w,,HK1.ZP.Fr.3, ,,,,521A,,,UIN,,,
+r,,HK1.ZP.Fr.1,Zirkulationsprogramm Fr 1 Start/Ende (Anwender 165) ,,,,501A02,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.ZP.Fr.1,Zirkulationsprogramm Fr 1 Start/Ende (Anwender 165) ,,,,501A,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.ZP.Fr.2,Zirkulationsprogramm Fr 2 Start/Ende (Anwender 165) ,,,,511A02,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.ZP.Fr.2,Zirkulationsprogramm Fr 2 Start/Ende (Anwender 165) ,,,,511A,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.ZP.Fr.3,Zirkulationsprogramm Fr 3 Start/Ende (Anwender 165) ,,,,521A02,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.ZP.Fr.3,Zirkulationsprogramm Fr 3 Start/Ende (Anwender 165) ,,,,521A,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 166 - Zirkulationsprogramm Samstag
-r,,HK1.ZP.Sa.1, ,,,,601A02,,,UIN,,,Zirkulationsprogramm Sa 1 Start/Ende (Anwender 166)
-w,,HK1.ZP.Sa.1, ,,,,601A,,,UIN,,,
-r,,HK1.ZP.Sa.2, ,,,,611A02,,,UIN,,,Zirkulationsprogramm Sa 2 Start/Ende (Anwender 166)
-w,,HK1.ZP.Sa.2, ,,,,611A,,,UIN,,,
-r,,HK1.ZP.Sa.3, ,,,,621A02,,,UIN,,,Zirkulationsprogramm Sa 3 Start/Ende (Anwender 166)
-w,,HK1.ZP.Sa.3, ,,,,621A,,,UIN,,,
+r,,HK1.ZP.Sa.1,Zirkulationsprogramm Sa 1 Start/Ende (Anwender 166) ,,,,601A02,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.ZP.Sa.1,Zirkulationsprogramm Sa 1 Start/Ende (Anwender 166) ,,,,601A,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.ZP.Sa.2,Zirkulationsprogramm Sa 2 Start/Ende (Anwender 166) ,,,,611A02,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.ZP.Sa.2,Zirkulationsprogramm Sa 2 Start/Ende (Anwender 166) ,,,,611A,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.ZP.Sa.3,Zirkulationsprogramm Sa 3 Start/Ende (Anwender 166) ,,,,621A02,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.ZP.Sa.3,Zirkulationsprogramm Sa 3 Start/Ende (Anwender 166) ,,,,621A,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
 
 # Parameter Anwender 167 - Zirkulationsprogramm Sonntag
-r,,HK1.ZP.So.1, ,,,,701A02,,,UIN,,,Zirkulationsprogramm So 1 Start/Ende (Anwender 167)
-w,,HK1.ZP.So.1, ,,,,701A,,,UIN,,,
-r,,HK1.ZP.So.2, ,,,,711A02,,,UIN,,,Zirkulationsprogramm So 2 Start/Ende (Anwender 167)
-w,,HK1.ZP.So.2, ,,,,711A,,,UIN,,,
-r,,HK1.ZP.So.3, ,,,,721A02,,,UIN,,,Zirkulationsprogramm So 3 Start/Ende (Anwender 167)
-w,,HK1.ZP.So.3, ,,,,721A,,,UIN,,,
+r,,HK1.ZP.So.1,Zirkulationsprogramm So 1 Start/Ende (Anwender 167) ,,,,701A02,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.ZP.So.1,Zirkulationsprogramm So 1 Start/Ende (Anwender 167) ,,,,701A,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.ZP.So.2,Zirkulationsprogramm So 2 Start/Ende (Anwender 167) ,,,,711A02,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.ZP.So.2,Zirkulationsprogramm So 2 Start/Ende (Anwender 167) ,,,,711A,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+r,,HK1.ZP.So.3,Zirkulationsprogramm So 3 Start/Ende (Anwender 167) ,,,,721A02,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
+w,,HK1.ZP.So.3,Zirkulationsprogramm So 3 Start/Ende (Anwender 167) ,,,,721A,Start,,TTQ,,,Start ,End,,TTQ,,,Ende
