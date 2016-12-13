@@ -1,5 +1,6 @@
 # type (r[1-9];w;u),class,name,comment,QQ,ZZ,PBSB,ID,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment
 *b,broadcast,,,,FE,,,,,,,,,,,,,,,,,,,,,,,,,,
+
 #
 # 500A - Prozesswerte des Heizungsreglers/Feuerungsautomaten
 # Dieses Telegramm wird vom Heizungsregler/Feuerungsautomaten per Broadcast gesendet.

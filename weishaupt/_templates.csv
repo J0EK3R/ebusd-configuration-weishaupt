@@ -11,3 +11,7 @@ rpm60,UCH,,Rpm,Drehzahl
 
 # 2 Byte vorzeichenbehaftete Temperatur mit Skalierung 1/10
 temp10:temp,SIN,10,°C,Temperatur
+
+# Field Templates für Start/Ende-Zeit der Programme
+TTQs:Start,TTQ,,,Startzeit 
+TTQe:End,TTQ,,,Endezeit 
