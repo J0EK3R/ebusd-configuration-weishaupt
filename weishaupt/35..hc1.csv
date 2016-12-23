@@ -1,0 +1,11 @@
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
+!include,processhc.inc,,Prozesswerte Heizkreisregler,,,,,,,,,,
+!include,processhwc.inc,,Prozesswerte Heizkreisregler - Warmwasser,,,,,,,,,,
+!include,userhc.inc,,Parameter Endanwender - Heizkreis,,,,,,,,,,
+!include,userhwc.inc,,Parameter Endanwender - Warmwasser,,,,,,,,,,
+!include,userholiday.inc,,Parameter Endanwender - Urlaub,,,,,,,,,,
+!include,experthc.inc,,Parameter Heizungsfachmann - Heizkreis,,,,,,,,,,
+!include,experthwc.inc,Parameter Heizungsfachmann - Warmwasser,,,,,,,,,,,
+!include,timerhc.inc,,Zeitprogramme Heizkreis,,,,,,,,,,
+!include,timerhwc.inc,,Zeitprogramm Warmwasser,,,,,,,,,,
+!include,timercc.inc,,Zeitprogramm Zirkulationspumpe,,,,,,,,,,

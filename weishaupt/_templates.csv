@@ -1,7 +1,30 @@
 # template name,type / templates,divider / values,unit,comment
+ionoff,UIN,0x0000=Aus;0x0001=An,,
+ispeedvariation,UIN,0x0000=Betriebsniveau;0x0001=Kennlinie,,
+idhwoperation,UIN,0x0000=Vorrang;0x0001=Gleitend;0x0002=Parallel,,
+ifloordrying,UIN,0x0000=Off;0x0001=FktHeizen;0x0002=BelegHeizen;0x0003=FktBelegHeizen,,
+iday,UIN,,,
+ipercent,UIN,,%,Prozent
+iconstructiontype,UIN,0x0000=Heavy;0x0001=Light,,
+idhwmode,UIN,0x0000=DHWProgram;0x0001=24Day;0x0002=DHWBeforeHeat,,
+iprogramchooseswitch,UIN,0x01=Standby;0x03=Normaltemperatur;0x04=Absenktemperatur;0x05=Sommer;0x0b=Programm 1;0x0c=Programm 2;0x0d=Programm 3,,Programmwahlschalter
+itemp1:temp,SIN,,°C,Temperatur
+itemp10:temp,SIN,10,°C,Temperatur
+iseconds,UIN,,s,Sekunden
+iminutes,UIN,,min,Minuten
+itempreduced,UIN,0x0000=Frostschutztemperatur;0x0001=Absenktemperatur,,
+igradient10,SIN,10,,Steilheit
+ilegionnairesday,UIN,0x0000=Off,,Legionellen-Funktion
+iholidayday,UIN,0x0000=Off,,Tag
+iholidaymonth,UIN,0x0000=Off;0x0001=January;0x0002=February;0x0003=March;0x0004=April;0x0005=May;0x0006=June;0x0007=July;0x0008=August;0x0009=September;0x000A=October;0x000B=November;0x000C=December,,Monat
 
-# Programmwahlschalter
-programmwahl,UIN,0x01=Standby;0x03=Normaltemperatur;0x04=Absenktemperatur;0x05=Sommer;0x0b=Programm 1;0x0c=Programm 2;0x0d=Programm 3,,Programmwahlschalter
+# Raumeinfluss - Werte von 0 - 20 und 0xFFFF für off
+#roominfluence,UIN,0xFFFF=Off,,Raumeinfluss
+iroominfluence,UIN,,,Raumeinfluss
+# Field Templates für Start/Ende-Zeit der Programme
+TTQs:Start,TTQ,,,Startzeit 
+TTQe:End,TTQ,,,Endezeit 
+
 
 #siehe S33 Tabelle Betriebsphasen
 betriebsphase,UCH,0x00=BrennerAus;0x01=RuhestandskontrolleGebläse;0x02=VorspühldrehzahlErreichen;0x03=CountdownVorspühlzeit;0x04=ZünddrehzahlErreichen;0x05=Flammenbildungszeit;0x06=BrennerInBetrieb;0x07=GasventilkontrolleV1;0x08=GasventilkontrolleV2;0x09=Nachspühlen,,Betriebsphase
@@ -9,9 +32,3 @@ betriebsphase,UCH,0x00=BrennerAus;0x01=RuhestandskontrolleGebläse;0x02=Vorspüh
 # Gebläsedrehzahl [Wert * 60]
 rpm60,UCH,,Rpm,Drehzahl
 
-# 2 Byte vorzeichenbehaftete Temperatur mit Skalierung 1/10
-temp10:temp,SIN,10,°C,Temperatur
-
-# Field Templates für Start/Ende-Zeit der Programme
-TTQs:Start,TTQ,,,Startzeit 
-TTQe:End,TTQ,,,Endezeit 
