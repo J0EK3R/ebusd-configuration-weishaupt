@@ -27,8 +27,8 @@ TTQe:End,TTQ,,,Endezeit
 
 
 #siehe S33 Tabelle Betriebsphasen
-betriebsphase,UCH,0x00=BrennerAus;0x01=RuhestandskontrolleGebläse;0x02=VorspühldrehzahlErreichen;0x03=CountdownVorspühlzeit;0x04=ZünddrehzahlErreichen;0x05=Flammenbildungszeit;0x06=BrennerInBetrieb;0x07=GasventilkontrolleV1;0x08=GasventilkontrolleV2;0x09=Nachspühlen,,Betriebsphase
-
+operatingphase,UCH,0x00=BrennerAus;0x01=RuhestandskontrolleGebläse;0x02=VorspühldrehzahlErreichen;0x03=CountdownVorspühlzeit;0x04=ZünddrehzahlErreichen;0x05=Flammenbildungszeit;0x06=BrennerInBetrieb;0x07=GasventilkontrolleV1;0x08=GasventilkontrolleV2;0x09=Nachspühlen,,Betriebsphase
+settingUV,UCH,0x00=HZ,,Stellung UV
 # Gebläsedrehzahl [Wert * 60]
 rpm60,UCH,,Rpm,Drehzahl
 
