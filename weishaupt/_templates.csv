@@ -2,6 +2,7 @@
 ccounter,UCH,,,
 cburneroptions,UCH,,,Brenneroptionen
 chours,UCH,,h,Stunden
+ctemp1:temp,SCH,,°C,Temperatur
 ionoff,UIN,0x0000=Aus;0x0001=An,,
 ispeedvariation,UIN,0x0000=Betriebsniveau;0x0001=Kennlinie,,
 idhwoperation,UIN,0x0000=Vorrang;0x0001=Gleitend;0x0002=Parallel,,
