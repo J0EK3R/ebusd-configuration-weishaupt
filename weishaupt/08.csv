@@ -3,6 +3,7 @@
 
 !include,enduser.inc,,Endanwender ,,,,,,,,,,
 !include,statistic.inc,,Statistik ,,,,,,,,,,
+!include,manufacturer.inc,,Hersteller ,,,,,,,,,,
 !include,errorhistory.inc,,Fehlerhistorie ,,,,,,,,,,
 
 # Quelle: "ebus parameter 01-13 aktuell.xls"

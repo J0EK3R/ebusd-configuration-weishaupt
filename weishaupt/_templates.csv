@@ -1,5 +1,6 @@
 # template name,type / templates,divider / values,unit,comment
 ccounter,UCH,,,
+cburneroptions,UCH,,,Brenneroptionen
 chours,UCH,,h,Stunden
 ionoff,UIN,0x0000=Aus;0x0001=An,,
 ispeedvariation,UIN,0x0000=Betriebsniveau;0x0001=Kennlinie,,
