@@ -1,6 +1,7 @@
 # type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
 *r,,,,,,"5000",,,,,,,
 
+!include,processvalues.inc,,Prozesswerte ,,,,,,,,,,
 !include,enduser.inc,,Endanwender ,,,,,,,,,,
 !include,statistic.inc,,Statistik ,,,,,,,,,,
 !include,manufacturer.inc,,Hersteller ,,,,,,,,,,
@@ -32,7 +33,7 @@
 # S08         07h Byte7
 
 # type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
-r,,Prozess1, ,,,"5000","bc1162016511700174",Byte01,,UCH,,,Byte1 ,Byte02,,UCH,,,Byte2 ,Byte03,,UCH,,,Byte3 ,Byte04,,UCH,,,Byte4 ,Solldrehzahl,,rpm60,,,Gebläseregelung Solldrehzahl ,Istdrehzahl,,rpm60,,,Gebläseregelung Istdrehzahl ,Byte07,,UCH,,,Byte7
+#r,,Prozess1, ,,,"5000","bc1162016511700174",Byte01,,UCH,,,Byte1 ,Byte02,,UCH,,,Byte2 ,Byte03,,UCH,,,Byte3 ,Byte04,,UCH,,,Byte4 ,Solldrehzahl,,rpm60,,,Gebläseregelung Solldrehzahl ,Istdrehzahl,,rpm60,,,Gebläseregelung Istdrehzahl ,Byte07,,UCH,,,Byte7
 
 # Quelle: "ebus parameter 01-13 aktuell.xls"
 #
