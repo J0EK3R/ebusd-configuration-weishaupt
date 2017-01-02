@@ -3,7 +3,7 @@ ccounter,UCH,,,
 cburneroptions,UCH,,,Brenneroptionen
 chours,UCH,,h,Stunden
 ctemp1:temp,SCH,,°C,Temperatur
-crpm60,UCH,,Rpm,Drehzahl
+crpm60,UCH,-60,Rpm,Drehzahl
 ionoff,UIN,0x0000=Aus;0x0001=An,,
 ispeedvariation,UIN,0x0000=Betriebsniveau;0x0001=Kennlinie,,
 idhwoperation,UIN,0x0000=Vorrang;0x0001=Gleitend;0x0002=Parallel,,
@@ -24,8 +24,8 @@ igradient10,SIN,10,,Steilheit
 ilegionnairesday,UIN,0x0000=Off,,Legionellen-Funktion
 iholidayday,UIN,0x0000=Off,,Tag
 iholidaymonth,UIN,0x0000=Off;0x0001=January;0x0002=February;0x0003=March;0x0004=April;0x0005=May;0x0006=June;0x0007=July;0x0008=August;0x0009=September;0x000A=October;0x000B=November;0x000C=December,,Monat
-lhours,HEX:3,,h,Stunden
-lcounter,HEX:3,,,
+lhours,U3N,,h,Stunden
+lcounter,U3N,,,
 
 # Raumeinfluss - Werte von 0 - 20 und 0xFFFF für off
 #roominfluence,UIN,0xFFFF=Off,,Raumeinfluss

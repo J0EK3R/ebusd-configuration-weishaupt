@@ -23,4 +23,4 @@
 # M16      e1h Lsb Simulated Floating Point Ext measure data2b   -> Trend
 # M17      0ah Msb Simulated Floating Point Ext measure data2b   -> Trend
 # M18      36h
-b,,IstWerte,Broadcast mit Istwerten,,,500a,,Status0,,UCH,,,Status ,Betriebsphase,,operatingphase,,,Status ,Status2,,UCH,,,Status ,Status3,,UCH,,,Status ,Laststellung,,UCH,,,Laststellung ,T_Water,,temp1,,,Wassertemperatur ,T_ECS,,temp1,,,ECS-Temperatur ,T_Temp1,,temp1,,,Temp ,T_Temp2,,temp1,,,Temp ,T_Out,,temp0,,,Außentemperatur ,T_Trend,,temp2,,,Trend ,T_Temp3,,temp0,,,Temp
+b,,IstWerte,Broadcast mit Istwerten,,,500a,,Status0,,UCH,,,Status ,Betriebsphase,,operatingphase,,,Status ,Status2,,UCH,,,Status ,Status3,,UCH,,,Status ,Laststellung,,UCH,,,Laststellung ,T_Water,,temp1,,,Wassertemperatur ,T_ECS,,temp1,,,ECS-Temperatur ,T_Temp1,,temp1,,,Temp ,T_Temp2,,temp1,,,Temp ,T_Out,,ctemp1,,,Außentemperatur ,T_Trend,,temp2,,,Trend ,T_Temp3,,temp0,,,Temp
