@@ -1,0 +1,90 @@
+Dieses Gerät ist der Heizkreisregler 2, der sich im Bedienteil befindet.
+Master-Adresse: 0x70
+Slave-Adresse:  0x75
+
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
+*b,HK2,,,,75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+*r,HK2,,,,75,"0902",,,,,,,
+*w,HK2,,,,75,"0903",,,,,,,
+
+# Parameter Anwender 171 - Normaltemperatur Sollwert
+# Skalierug 1/10
+#
+# Read:  ebusctl hex 75090203050002
+#        ebusctl r -f HK2.T_Normal
+# Write: ebusctl hex 7509030405000401 -> 25°C
+#        ebusctl w -c HK2 HK2.T_Normal 25.0
+#
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
+r,,HK2.T_Normal, ,,,,050002,,,UIN,10,,Normaltemperatur Sollwert
+w,,HK2.T_Normal, ,,,,0500,,,UIN,10,,Normaltemperatur Sollwert
+
+# Parameter Anwender 172 - Absenktemperatur Sollwert
+# Skalierung 1/10
+#
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
+r,,HK2.T_Absenk, ,,,,080002,,,UIN,10,,Absenktemperatur Sollwert
+w,,HK2.T_Absenk, ,,,,0800,,,UIN,10,,Absenktemperatur Sollwert
+
+# Parameter Anwender 173 - Frostschutz Sollwert
+# Skalierung 1/10
+#
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
+r,,HK2.T_Frost, ,,,,140A02,,,UIN,10,,Frostschutz Soll
+w,,HK2.T_Frost, ,,,,140A,,,UIN,10,,Frostschutz Soll
+
+# Parameter Anwender 174 - Sommer/Winter Umschaltung
+# Skalierung 1/10
+#
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
+r,,HK2.T_SoWi, ,,,,160102,,,UIN,10,,Sommer/Winter-Umschaltung
+w,,HK2.T_SoWi, ,,,,1601,,,UIN,10,,Sommer/Winter-Umschaltung
+
+# Parameter Anwender 175 - Steilheit
+# Skalierung 1/10
+#
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
+r,,HK2.Steilheit, ,,,,0E0102,,,UIN,10,,Steilheit
+w,,HK2.Steilheit, ,,,,0E01,,,UIN,10,,Steilheit
+
+# Parameter Anwender 176 - Warmwasser Soll
+# Skalierung 1/10
+#
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
+r,,HK2.Warmwasser.Soll, ,,,,130002,,,UIN,10,,Warmwasser Soll
+w,,HK2.Warmwasser.Soll, ,,,,1300,,,UIN,10,,Warmwasser Soll
+
+# Parameter Anwender 177 - Warmwasser Min
+# Skalierung 1/10
+#
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
+r,,HK2.Warmwasser.Min, ,,,,330102,,,UIN,10,,Warmwasser Min
+w,,HK2.Warmwasser.Min, ,,,,3301,,,UIN,10,,Warmwasser Min
+
+# Parameter Anwender 181 - Urlaub Ab - Tag
+# [00,01-31]
+#
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
+r,,HK2.Urlaub.Ab.Tag, ,,,,1B0102,,,UIN,,,Urlaub Ab - Tag
+w,,HK2.Urlaub.Ab.Tag, ,,,,1B01,,,UIN,,,Urlaub Ab - Tag
+
+# Parameter Anwender 181 - Urlaub Ab - Monat
+# [01-12]
+#
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
+r,,HK2.Urlaub.Ab.Monat, ,,,,1C0102,,,UIN,,,Urlaub Ab - Monat
+w,,HK2.Urlaub.Ab.Monat, ,,,,1C01,,,UIN,,,Urlaub Ab - Monat
+
+# Parameter Anwender 182 - Urlaub Bis - Tag
+# [00,01-31]
+#
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
+r,,HK2.Urlaub.Bis.Tag, ,,,,1E0102,,,UIN,,,Urlaub Bis - Tag
+w,,HK2.Urlaub.Bis.Tag, ,,,,1E01,,,UIN,,,Urlaub Bis - Tag
+
+# Parameter Anwender 182 - Urlaub Bis - Monat
+# [01-12]
+#
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
+r,,HK2.Urlaub.Bis.Monat, ,,,,1F0102,,,UIN,,,Urlaub Bis - Monat
+w,,HK2.Urlaub.Bis.Monat, ,,,,1F01,,,UIN,,,Urlaub Bis - Monat

@@ -1,0 +1,27 @@
+Dieses Gerät ist der Mischer
+Master-Adresse: -keine-
+Slave-Adresse:  0x51
+
+# Request              Response
+# 7051501004b3180280 / 09463c3a0f0b60000000
+#     5010               B1B2B3B4B5B6B7B8B9
+#
+# M1   QQ   70h Quelladresse
+# M2   ZZ   51h Zieladresse
+# M3   PB = 50h 
+# M4   SB = 10h 
+# M5   NN = 04h Datenlänge
+# M6-       b3h Raumtemperatur              DATA2b -> 24.7°C
+# M7        18h ---                            
+# M8        02h
+# M9        08h
+# S1   NN = 09h Datenlänge
+# S2        46h Vorlauf max Kess-MK Überhöhung DATA1c -> 35°C
+# S3        3ch Vorlauf max                    DATA1c -> 30°C
+# S4        3ah Vorlauftemperatur              DATA1c -> 29°C
+# S5        0fh Außentemperatur                DATA1b -> 15°C
+# S6        0bh
+# S7        60h
+# S8        00h
+# S9        00h
+# S10       00h

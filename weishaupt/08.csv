@@ -1,28 +1,6 @@
-# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
-*r,,,,,,"5000",,,,,,,
-
-!include,processvalues.inc,,Prozesswerte ,,,,,,,,,,
-!include,enduser.inc,,Endanwender ,,,,,,,,,,
-!include,statistic.inc,,Statistik ,,,,,,,,,,
-!include,manufacturer.inc,,Hersteller ,,,,,,,,,,
-!include,errorhistory.inc,,Fehlerhistorie ,,,,,,,,,,
-
-# Quelle: "ebus parameter 01-13 aktuell.xls"
-#
-# M01    QQ   xxh Quelladresse
-# M02    ZZ   08h Zieladresse - Feuerungsautomat
-# M03    PB = 50h Service
-# M04    SB = 00h Service
-# M05    NN = 05h Datenlänge
-# M06         0dh 
-# M07         01h 
-# M08         61h 
-# M09         03h 
-# M10         09h 
-# S01    NN = 03h Datenlänge
-# S02         00h Byte1
-# S03         00h IO Soll oder Ist?
-# S04         3eh Modulationsgrad%
-
-# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
-r,,Prozess2, ,,,"5000","0d01610309",Byte01,,UCH,,,Byte1 ,IO,,UCH,,,IO ,Modulationsgrad,,UCH,,,Modulationsgrad
+#instruction,parameter,comment
+!include,processvalues.inc,Prozesswerte
+!include,enduser.inc,Endanwender
+!include,statistic.inc,Statistik
+!include,manufacturer.inc,Hersteller
+!include,errorhistory.inc,Fehlerhistorie
