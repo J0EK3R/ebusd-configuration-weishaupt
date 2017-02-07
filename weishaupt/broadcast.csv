@@ -1,3 +1,0 @@
-# type (r[1-9];w;u),class,name,comment,QQ,ZZ,PBSB,ID,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment
-*b,broadcast,,,,"FE",,,,,,,,,,,,,,,,,,,,,,,,,,
-b,,ActualValues,Broadcast mit Istwerten ,,,"500A",,Status0,,UCH,,,Status ,Betriebsphase,,operatingphase,,,Status ,Status2,,UCH,,,Status ,Status3,,UCH,,,Status ,Laststellung,,UCH,,,Laststellung ,T_Water,,temp1,,,Wassertemperatur ,T_ECS,,temp1,,,ECS-Temperatur ,T_Temp1,,temp1,,,Temp ,T_Temp2,,temp1,,,Temp ,T_Out,,ctemp1,,,Außentemperatur ,T_Trend,,temp2,,,Trend ,T_Temp3,,temp0,,,Temp

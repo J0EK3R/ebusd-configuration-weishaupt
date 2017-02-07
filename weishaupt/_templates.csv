@@ -1,40 +1,49 @@
-# template name,type / templates,divider / values,unit,comment
-ccounter,UCH,,,
-cburneroptions,UCH,,,Brenneroptionen
-chours,UCH,,h,Stunden
-ctemp1:temp,SCH,,°C,Temperatur
-crpm60,UCH,-60,Rpm,Drehzahl
-ionoff,UIN,0x0000=Aus;0x0001=An,,
-ispeedvariation,UIN,0x0000=Betriebsniveau;0x0001=Kennlinie,,
-idhwoperation,UIN,0x0000=Vorrang;0x0001=Gleitend;0x0002=Parallel,,
-ifloordrying,UIN,0x0000=Off;0x0001=FktHeizen;0x0002=BelegHeizen;0x0003=FktBelegHeizen,,
-iday,UIN,,,
-ipercent,UIN,,%,Prozent
-iconstructiontype,UIN,0x0000=Heavy;0x0001=Light,,
-idhwmode,UIN,0x0000=DHWProgram;0x0001=24Day;0x0002=DHWBeforeHeat,,
-iprogramchooseswitch,UIN,0x01=Standby;0x03=Normaltemperatur;0x04=Absenktemperatur;0x05=Sommer;0x0b=Programm 1;0x0c=Programm 2;0x0d=Programm 3,,Programmwahlschalter
-itemp1:temp,SIN,,°C,Temperatur
-itemp10:temp,SIN,10,°C,Temperatur
-icounter,UIN,,,
-iseconds,UIN,,s,Sekunden
-iminutes,UIN,,min,Minuten
-ihours,UIN,,h,Stunden
-itempreduced,UIN,0x0000=Frostschutztemperatur;0x0001=Absenktemperatur,,
-igradient10,SIN,10,,Steilheit
-ilegionnairesday,UIN,0x0000=Off,,Legionellen-Funktion
-iholidayday,UIN,0x0000=Off,,Tag
-iholidaymonth,UIN,0x0000=Off;0x0001=January;0x0002=February;0x0003=March;0x0004=April;0x0005=May;0x0006=June;0x0007=July;0x0008=August;0x0009=September;0x000A=October;0x000B=November;0x000C=December,,Monat
-lhours,U3N,,h,Stunden
-lcounter,U3N,,,
+# TEMPLATE[:FIELDNAME],DATATYPE: BASETYPE|TEMPLATE[;BASETYPE|TEMPLATE]*,DIVIDER/VALUES,UNIT,COMMENT
+_8_BurnerOptions,UCH,,,Brenneroptionen
+_8_Counter,UCH,,,
+_8_Fueltype,UCH,0=any;1=oil;2=gas
+_8_Hours,UCH,,h,Stunden
+_8_Load,UCH,,,Laststellung
+_8_Operatingphase,UCH,0x00=BrennerAus;0x01=RuhestandskontrolleGebläse;0x02=VorspühldrehzahlErreichen;0x03=CountdownVorspühlzeit;0x04=ZünddrehzahlErreichen;0x05=Flammenbildungszeit;0x06=BrennerInBetrieb;0x07=GasventilkontrolleV1;0x08=GasventilkontrolleV2;0x09=Nachspühlen,,Betriebsphase
+_8_Opdataheat,UCH,0x00=off;0x01=none;0x55=hotwater;0xaa=heating;0xcc=emissioncheck;0xdd=qualitycontrol;0xee=controlstop;0x66=hotwaterincontrolstop;0xbb=hotwaterinheating;0xee=controlstopinstage,,Wärmeanforderung
+_8_Opdataaction,UCH,0x00=none;0x01=stoppump;0x02=startpump;0x03=stopconsumer;0x04=startconsumer
+_8_Percent,D1C,,%,Prozent
+_8_Rpm60,UCH,-60,Rpm,Drehzahl
+_8_SettingUV,UCH,0x00=HZ,,Stellung UV
+_8_Skip,IGN:1,,,
+_8_Status,UCH,,,Status 0x500A-Broadcast
+_8_Temp0,UCH,,°C,Temperatur
+_8_Temp1,SCH,,°C,Temperatur
+_8_Temp2,D1C,,°C,Temperatur
+_8_Temp3,D2C,,°C,Temperatur
+# Field Templates für Start/Ende-Zeit der Programme,,,,
+_8_TimeStart:Start,TTQ,,,Startzeit 
+_8_TimeEnd:End,TTQ,,,Endezeit 
 
-# Raumeinfluss - Werte von 0 - 20 und 0xFFFF für off
-#roominfluence,UIN,0xFFFF=Off,,Raumeinfluss
-iroominfluence,UIN,,,Raumeinfluss
-# Field Templates für Start/Ende-Zeit der Programme
-TTQs:Start,TTQ,,,Startzeit 
-TTQe:End,TTQ,,,Endezeit 
+_16_Constructiontype,UIN,0x0000=Heavy;0x0001=Light,,
+_16_Counter,UIN,,,
+_16_Day,UIN,,,
+_16_DhwMode,UIN,0x0000=DHWProgram;0x0001=24Day;0x0002=DHWBeforeHeat,,
+_16_DhwOperation,UIN,0x0000=Vorrang;0x0001=Gleitend;0x0002=Parallel,,
+_16_Floordrying,UIN,0x0000=Off;0x0001=FktHeizen;0x0002=BelegHeizen;0x0003=FktBelegHeizen,,
+_16_Gradient10,SIN,10,,Steilheit
+_16_HolidayDay,UIN,0x0000=Off,,Tag
+_16_HolidayMonth,UIN,0x0000=Off;0x0001=January;0x0002=February;0x0003=March;0x0004=April;0x0005=May;0x0006=June;0x0007=July;0x0008=August;0x0009=September;0x000A=October;0x000B=November;0x000C=December,,Monat
+_16_Hours,UIN,,h,Stunden
+_16_Legionnairesday,UIN,0x0000=Off,,Legionellen-Funktion
+_16_Minutes,UIN,,min,Minuten
+_16_OnOff,UIN,0x0000=Aus;0x0001=An,,
+_16_Percent,UIN,,%,Prozent
+_16_Pressure,D2B,,bar,Druck
+_16_ProgramChooseSwitch,UIN,0x01=Standby;0x03=Normaltemperatur;0x04=Absenktemperatur;0x05=Sommer;0x0b=Programm 1;0x0c=Programm 2;0x0d=Programm 3,,Programmwahlschalter
+# Raumeinfluss - Werte von 0 - 20 und 0xFFFF für off,,,,
+_16_Roominfluence,UIN,,,Raumeinfluss
+_16_Seconds,UIN,,s,Sekunden
+_16_Speedvariation,UIN,0x0000=Betriebsniveau;0x0001=Kennlinie,,
+_16_Temp0,D2B,,°C,Temperatur
+_16_Temp1,SIN,,°C,Temperatur
+_16_Temp10,SIN,10,°C,Temperatur
+_16_TempReduced,UIN,0x0000=Frostschutztemperatur;0x0001=Absenktemperatur,,
 
-#siehe S33 Tabelle Betriebsphasen
-operatingphase,UCH,0x00=BrennerAus;0x01=RuhestandskontrolleGebläse;0x02=VorspühldrehzahlErreichen;0x03=CountdownVorspühlzeit;0x04=ZünddrehzahlErreichen;0x05=Flammenbildungszeit;0x06=BrennerInBetrieb;0x07=GasventilkontrolleV1;0x08=GasventilkontrolleV2;0x09=Nachspühlen,,Betriebsphase
-settingUV,UCH,0x00=HZ,,Stellung UV
-
+_24_Counter,U3N,,,
+_24_Hours,U3N,,h,Stunden

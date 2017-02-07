@@ -3,7 +3,7 @@
 *r,,,,,,"0902",,,,,,,
 *w,,,,,,"0903",,,,,,,
 
-r,,DHWSetpoint,Warmwasser-Soll (176) ,,,,"130002",,,itemp10,,,
-w,,DHWSetpoint, ,,,,"1300",,,itemp10,,,
-r,,DHWMin,Warmwasser-Min (177) ,,,,"330102",,,itemp10,,,
-w,,DHWMin, ,,,,"3301",,,itemp10,,,
+r,,DHWSetpoint,Warmwasser-Soll (176) ,,,,"130002",,,_16_Temp10,,,
+w,,DHWSetpoint, ,,,,"1300",,,_16_Temp10,,,
+r,,DHWMin,Warmwasser-Min (177) ,,,,"330102",,,_16_Temp10,,,
+w,,DHWMin, ,,,,"3301",,,_16_Temp10,,,

@@ -2,5 +2,5 @@
 #,,Prozesswerte Heizkreisregler Warmwasser,,,,,,,,,,,
 *r,,,,,,"0902",,,,,,,
 *w,,,,,,"0903",,,,,,,
-r,,DHWSetValue,Warmwassersollwert ,,,,"030002",,,itemp10,,,
-r,,DHWTemperature,Warmwassertemperatur ,,,,"0E0002",,,itemp10,,,
+r,,DHWSetValue,Warmwassersollwert ,,,,"030002",,,_16_Temp10,,,
+r,,DHWTemperature,Warmwassertemperatur ,,,,"0E0002",,,_16_Temp10,,,
