@@ -6,7 +6,7 @@ _8_Hours,UCH,,h,Stunden
 _8_Load,UCH,,,Laststellung
 _8_Operatingphase,UCH,0x00=BrennerAus;0x01=RuhestandskontrolleGebläse;0x02=VorspühldrehzahlErreichen;0x03=CountdownVorspühlzeit;0x04=ZünddrehzahlErreichen;0x05=Flammenbildungszeit;0x06=BrennerInBetrieb;0x07=GasventilkontrolleV1;0x08=GasventilkontrolleV2;0x09=Nachspühlen,,Betriebsphase
 _8_Opdataheat,UCH,0x00=off;0x01=none;0x55=hotwater;0xaa=heating;0xcc=emissioncheck;0xdd=qualitycontrol;0xee=controlstop;0x66=hotwaterincontrolstop;0xbb=hotwaterinheating;0xee=controlstopinstage,,Wärmeanforderung
-_8_Opdataaction,UCH,0x00=none;0x01=stoppump;0x02=startpump;0x03=stopconsumer;0x04=startconsumer
+_8_Opdataaction,UCH,0x00=none;0x01=stoppump;0x02=startpump;0x03=stopconsumer;0x04=startconsumer,,
 _8_Percent,D1C,,%,Prozent
 _8_Rpm60,UCH,-60,Rpm,Drehzahl
 _8_SettingUV,UCH,0x00=HZ,,Stellung UV
