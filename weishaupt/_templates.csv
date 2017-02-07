@@ -1,7 +1,7 @@
 # TEMPLATE[:FIELDNAME],DATATYPE: BASETYPE|TEMPLATE[;BASETYPE|TEMPLATE]*,DIVIDER/VALUES,UNIT,COMMENT
 _8_BurnerOptions,UCH,,,Brenneroptionen
 _8_Counter,UCH,,,
-_8_Fueltype,UCH,0=any;1=oil;2=gas
+_8_Fueltype,UCH,0=any;1=oil;2=gas,
 _8_Hours,UCH,,h,Stunden
 _8_Load,UCH,,,Laststellung
 _8_Operatingphase,UCH,0x00=BrennerAus;0x01=RuhestandskontrolleGebläse;0x02=VorspühldrehzahlErreichen;0x03=CountdownVorspühlzeit;0x04=ZünddrehzahlErreichen;0x05=Flammenbildungszeit;0x06=BrennerInBetrieb;0x07=GasventilkontrolleV1;0x08=GasventilkontrolleV2;0x09=Nachspühlen,,Betriebsphase
