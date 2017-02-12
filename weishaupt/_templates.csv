@@ -42,6 +42,7 @@ _16_Seconds,UIN,,s,Sekunden
 _16_Speedvariation,UIN,0x0000=Betriebsniveau;0x0001=Kennlinie,,
 _16_Temp0,D2B,,°C,Temperatur
 _16_Temp1,SIN,,°C,Temperatur
+_16_Temp2,D2C,,°C,Temperatur
 _16_Temp10,SIN,10,°C,Temperatur
 _16_TempReduced,UIN,0x0000=Frostschutztemperatur;0x0001=Absenktemperatur,,
 
