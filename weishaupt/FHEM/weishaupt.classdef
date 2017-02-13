@@ -1,0 +1,298 @@
+################## weishaupt.classdef ###############
+# Diese Datei einthält die Klassendefinitionen für das ECMD-Device aus FHEM zur Anbindung an ebusd.
+# Die Werte werden wiederum durch einen Timer in FHEM zyklisch gepollt und in DummyDevices geschrieben.
+#
+# Bsp.:
+# defmod EBUSD ECMD telnet localhost:8888
+# attr EBUSD classdefs weishaupt.class=/etc/ebusd/weishaupt/FHEM/weishaupt.classdef
+#
+# defmod Weishaupt.BC.ExternalTemp ECMDDevice weishaupt.class
+# attr Weishaupt.BC.ExternalTemp IODev EBUSD
+# attr Weishaupt.BC.ExternalTemp event-on-change-reading state
+# attr Weishaupt.BC.ExternalTemp stateFormat BC.ExternalTemp
+#
+# defmod EBUS.Timer at +*00:00:10 \
+# get Weishaupt.BC.ExternalTemp BC.ExternalTemp;;\
+# get Weishaupt.BC.Date BC.Date;;\
+# get Weishaupt.BC.Time BC.Time;;\
+# get Weishaupt.HC.Act.Operatingphase HC.Act.Operatingphase;;\
+# get Weishaupt.HC.Act.Status1 HC.Act.Status1;;\
+#
+
+# *********************************************
+# Werte aus dem Broadcast-Telegramm 0700
+
+# Aussentemperatur
+get BC.ExternalTemp cmd {"r -c broadcast datetime outsidetemp\n"}
+get BC.ExternalTemp expect ".*\n*"
+get BC.ExternalTemp postproc { sprintf("%5.1f",$_) }
+
+# Uhrzeit
+get BC.Time cmd {"r -c broadcast datetime time\n"}
+get BC.Time expect ".*\n*"
+#get BC.Time postproc { $_ }
+get BC.Time postproc { (split("\n", "$_"))[0] }
+
+# Datum
+get BC.Date cmd {"r -c broadcast datetime date\n"}
+get BC.Date expect ".*\n*"
+get BC.Date postproc { (split("\n", "$_"))[0] }
+# *********************************************
+
+
+# *********************************************
+# Werte aus dem Telegramm 500a Istwerte
+
+# Istwerte - Betriebsphase
+get HC.Act.Operatingphase cmd {"r -c hc Act Operatingphase\n"}
+get HC.Act.Operatingphase expect ".*\n*"
+get HC.Act.Operatingphase postproc { (split("\n", "$_"))[0] }
+
+# Istwerte - Status1
+get HC.Act.Status1 cmd {"r -c hc Act Status1\n"}
+get HC.Act.Status1 expect ".*\n*"
+get HC.Act.Status1 postproc { (split("\n", "$_"))[0] }
+
+# Istwerte - Status2
+#get HC.Act.Status2 cmd {"r -c hc Act Status2\n"}
+#get HC.Act.Status2 expect ".*\n*"
+#get HC.Act.Status2 postproc { (split("\n", "$_"))[0] }
+
+# Istwerte - Status2.Ukn1
+get HC.Act.Status2.Ukn1 cmd {"r -c hc Act Ukn2_1\n"}
+get HC.Act.Status2.Ukn1 expect ".*\n*"
+get HC.Act.Status2.Ukn1 postproc { (split("\n", "$_"))[0] }
+
+# Istwerte - Status2.Ukn2
+get HC.Act.Status2.Ukn2 cmd {"r -c hc Act Ukn2_2\n"}
+get HC.Act.Status2.Ukn2 expect ".*\n*"
+get HC.Act.Status2.Ukn2 postproc { (split("\n", "$_"))[0] }
+
+# Istwerte - Status2.Ukn3
+get HC.Act.Status2.Ukn3 cmd {"r -c hc Act Ukn2_3\n"}
+get HC.Act.Status2.Ukn3 expect ".*\n*"
+get HC.Act.Status2.Ukn3 postproc { (split("\n", "$_"))[0] }
+
+# Istwerte - Status2.Flame
+get HC.Act.Status2.Flame cmd {"r -c hc Act Flame\n"}
+get HC.Act.Status2.Flame expect ".*\n*"
+get HC.Act.Status2.Flame postproc { (split("\n", "$_"))[0] }
+
+# Istwerte - Status2.GasValve1
+get HC.Act.Status2.GasValve1 cmd {"r -c hc Act GasValve1\n"}
+get HC.Act.Status2.GasValve1 expect ".*\n*"
+get HC.Act.Status2.GasValve1 postproc { (split("\n", "$_"))[0] }
+
+# Istwerte - Status2.GasValve2
+get HC.Act.Status2.GasValve2 cmd {"r -c hc Act GasValve2\n"}
+get HC.Act.Status2.GasValve2 expect ".*\n*"
+get HC.Act.Status2.GasValve2 postproc { (split("\n", "$_"))[0] }
+
+# Istwerte - Status2.Pump
+get HC.Act.Status2.Pump cmd {"r -c hc Act Pump\n"}
+get HC.Act.Status2.Pump expect ".*\n*"
+get HC.Act.Status2.Pump postproc { (split("\n", "$_"))[0] }
+
+# Istwerte - Status2.Error
+get HC.Act.Status2.Error cmd {"r -c hc Act Error\n"}
+get HC.Act.Status2.Error expect ".*\n*"
+get HC.Act.Status2.Error postproc { (split("\n", "$_"))[0] }
+
+# Istwerte - Status3
+#get HC.Act.Status3 cmd {"r -c hc Act Status3\n"}
+#get HC.Act.Status3 expect ".*\n*"
+#get HC.Act.Status3 postproc { (split("\n", "$_"))[0] }
+
+# Istwerte - Status3.Ukn1
+get HC.Act.Status3.Ukn1 cmd {"r -c hc Act Ukn3_1\n"}
+get HC.Act.Status3.Ukn1 expect ".*\n*"
+get HC.Act.Status3.Ukn1 postproc { (split("\n", "$_"))[0] }
+
+# Istwerte - Status3.SoWi
+get HC.Act.Status3.SoWi cmd {"r -c hc Act SoWi\n"}
+get HC.Act.Status3.SoWi expect ".*\n*"
+get HC.Act.Status3.SoWi postproc { (split("\n", "$_"))[0] }
+
+# Istwerte - Status3.Ukn2
+get HC.Act.Status3.Ukn3 cmd {"r -c hc Act Ukn3_3\n"}
+get HC.Act.Status3.Ukn3 expect ".*\n*"
+get HC.Act.Status3.Ukn3 postproc { (split("\n", "$_"))[0] }
+
+# Istwerte - Status3.Ukn4
+get HC.Act.Status3.Ukn4 cmd {"r -c hc Act Ukn3_4\n"}
+get HC.Act.Status3.Ukn4 expect ".*\n*"
+get HC.Act.Status3.Ukn4 postproc { (split("\n", "$_"))[0] }
+
+# Istwerte - Status3.Ukn5
+get HC.Act.Status3.Ukn5 cmd {"r -c hc Act Ukn3_5\n"}
+get HC.Act.Status3.Ukn5 expect ".*\n*"
+get HC.Act.Status3.Ukn5 postproc { (split("\n", "$_"))[0] }
+
+# Istwerte - Status3.Ukn6
+get HC.Act.Status3.Ukn6 cmd {"r -c hc Act Ukn3_6\n"}
+get HC.Act.Status3.Ukn6 expect ".*\n*"
+get HC.Act.Status3.Ukn6 postproc { (split("\n", "$_"))[0] }
+
+# Istwerte - Status3.Ukn7
+get HC.Act.Status3.Ukn7 cmd {"r -c hc Act Ukn3_7\n"}
+get HC.Act.Status3.Ukn7 expect ".*\n*"
+get HC.Act.Status3.Ukn7 postproc { (split("\n", "$_"))[0] }
+
+# Istwerte - Status3.SettingUV
+get HC.Act.Status3.SettingUV cmd {"r -c hc Act SettingUV\n"}
+get HC.Act.Status3.SettingUV expect ".*\n*"
+get HC.Act.Status3.SettingUV postproc { (split("\n", "$_"))[0] }
+
+# Istwerte - Laststellung
+# Bsp.: 32
+get HC.Act.Load cmd {"r -c hc Act Load\n"}
+get HC.Act.Load expect "\d+\n\n"
+get HC.Act.Load postproc { (split("\n", "$_"))[0] }
+
+# Istwerte - Vorlauftemperatur
+# Bsp.: 40.0
+get HC.Act.SupplyTemp cmd {"r -c hc Act SupplyTemp\n"}
+get HC.Act.SupplyTemp expect "\d+\.\d+\n\n"
+get HC.Act.SupplyTemp postproc { sprintf("%5.1f",$_) }
+
+# Istwerte - Wassertemperatur
+# Bsp.: 48.0
+get HC.Act.DHWTemp cmd {"r -c hc Act DHWTemp\n"}
+get HC.Act.DHWTemp expect "\d+\.\d+\n\n"
+get HC.Act.DHWTemp postproc { sprintf("%5.1f",$_) }
+
+# Istwerte - Temp1
+# Bsp.: 0.0
+get HC.Act.UknTemp1 cmd {"r -c hc Act UknTemp\n"}
+get HC.Act.UknTemp1 expect ".*\n*"
+get HC.Act.UknTemp1 postproc { sprintf("%5.1f",$_) }
+
+# Istwerte - Abgastemperatur -> kein Wert
+get HC.Act.FlueGasTemp cmd {"r -c hc Act FlueGasTemp\n"}
+get HC.Act.FlueGasTemp expect ".*\n*"
+get HC.Act.FlueGasTemp postproc { sprintf("%5.0f",$_) }
+
+# Istwerte - Außentemperatur
+# Bsp.: 8
+get HC.Act.ExternalTemp cmd {"r -c hc Act ExternalTemp\n"}
+get HC.Act.ExternalTemp expect "\d+\n\n"
+get HC.Act.ExternalTemp postproc { (split("\n", "$_"))[0] }
+
+# Istwerte - Trend
+get HC.Act.TrendTemp cmd {"r -c hc Act TrendTemp\n"}
+get HC.Act.TrendTemp expect "\d+\.\d+\n\n"
+get HC.Act.TrendTemp postproc { sprintf("%5.3f",$_) }
+
+# Istwerte - Vorlauf Solltemperatur
+get HC.Act.SupplySetTemp cmd {"r -c hc Act SupplySetTemp\n"}
+get HC.Act.SupplySetTemp expect "\d+\n\n"
+get HC.Act.SupplySetTemp postproc { (split("\n", "$_"))[0] }
+# *********************************************
+
+# *********************************************
+# Werte aus dem Telegramm 0507 vom Heizkreis1-Regler
+
+# Heizkreis 1 - Status
+get HC1.Set.Status cmd {"r -c hc1 Set Status\n"}
+get HC1.Set.Status expect ".*\n\n"
+get HC1.Set.Status postproc { (split("\n", "$_"))[0] }
+
+# Heizkreis 1 - Aktion
+get HC1.Set.Action cmd {"r -c hc1 Set Action\n"}
+get HC1.Set.Action expect ".*\n\n"
+get HC1.Set.Action postproc { (split("\n", "$_"))[0] }
+
+# Heizkreis 1 - Kesselsolltemperatur
+get HC1.Set.SetTemp cmd {"r -c hc1 Set SetTemp\n"}
+get HC1.Set.SetTemp expect "\d+\.\d+\n\n"
+get HC1.Set.SetTemp postproc { sprintf("%5.1f",$_) }
+
+# Heizkreis 1 - Brauchwassertemperatur
+get HC1.Set.DHWSetTemp cmd {"r -c hc1 Set DHWSetTemp\n"}
+get HC1.Set.DHWSetTemp expect "\d+\.\d+\n\n"
+get HC1.Set.DHWSetTemp postproc { sprintf("%5.1f",$_) }
+# *********************************************
+
+
+# *********************************************
+# Werte aus dem Telegramm 0507 vom Heizkreis2-Regler
+
+# Heizkreis 2 - Status
+get HC2.Set.Status cmd {"r -c hc2 Set Status\n"}
+get HC2.Set.Status expect ".*\n\n"
+get HC2.Set.Status postproc { (split("\n", "$_"))[0] }
+
+# Heizkreis 1 - Kesselsolltemperatur
+get HC2.Set.SetTemp cmd {"r -c hc2 Set SetTemp\n"}
+get HC2.Set.SetTemp expect "\d+\.\d+\n\n"
+get HC2.Set.SetTemp postproc { sprintf("%5.1f",$_) }
+# *********************************************
+
+# *********************************************
+# Werte aus dem Telegramm 5010
+
+# Raumtemperatur - DATA2b
+get HC2.Act.RoomTemp cmd {"r -c hc2 Act RoomTemp\n"}
+get HC2.Act.RoomTemp expect "\d+\.\d+\n\n"
+get HC2.Act.RoomTemp postproc { sprintf("%5.3f",$_) }
+
+# Wärmeanforderung - DATA1c
+get HC2.Act.HeatDemandTemp cmd {"r -c hc2 Act HeatDemandTemp\n"}
+get HC2.Act.HeatDemandTemp expect "\d+\.\d+\n\n"
+get HC2.Act.HeatDemandTemp postproc { sprintf("%5.1f",$_) }
+
+# Vorlaufsollwert
+get HC2.Act.SupplySetTemp cmd {"r -c hc2 Act SupplySetTemp\n"}
+get HC2.Act.SupplySetTemp expect ".*\n*"
+get HC2.Act.SupplySetTemp postproc { sprintf("%5.1f",$_) }
+
+# Vorlauftemperatur
+get HC2.Act.SupplyTemp cmd {"r -c hc2 Act SupplyTemp\n"}
+get HC2.Act.SupplyTemp expect "\d+\.\d+\n\n"
+get HC2.Act.SupplyTemp postproc { sprintf("%5.1f",$_) }
+
+# Byte2
+get HC2.Act.Byte2 cmd {"r -c hc2 Act Byte2\n"}
+get HC2.Act.Byte2 expect ".*\n*"
+get HC2.Act.Byte2 postproc { (split("\n", "$_"))[0] }
+
+# Byte3
+get HC2.Act.Byte3 cmd {"r -c hc2 Act Byte3\n"}
+get HC2.Act.Byte3 expect ".*\n*"
+get HC2.Act.Byte3 postproc { (split("\n", "$_"))[0] }
+
+# Byte7
+get HC2.Act.Byte7 cmd {"r -c hc2 Act Byte7\n"}
+get HC2.Act.Byte7 expect ".*\n*"
+get HC2.Act.Byte7 postproc { (split("\n", "$_"))[0] }
+
+# Byte8
+get HC2.Act.Byte8 cmd {"r -c hc2 Act Byte8\n"}
+get HC2.Act.Byte8 expect ".*\n*"
+get HC2.Act.Byte8 postproc { (split("\n", "$_"))[0] }
+
+# Byte9
+get HC2.Act.Byte9 cmd {"r -c hc2 Act Byte9\n"}
+get HC2.Act.Byte9 expect ".*\n*"
+get HC2.Act.Byte9 postproc { (split("\n", "$_"))[0] }
+
+# ByteA
+get HC2.Act.ByteA cmd {"r -c hc2 Act ByteA\n"}
+get HC2.Act.ByteA expect ".*\n*"
+get HC2.Act.ByteA postproc { (split("\n", "$_"))[0] }
+
+# ByteB
+get HC2.Act.ByteB cmd {"r -c hc2 Act ByteB\n"}
+get HC2.Act.ByteB expect ".*\n*"
+get HC2.Act.ByteB postproc { (split("\n", "$_"))[0] }
+
+# ByteC
+get HC2.Act.ByteC cmd {"r -c hc2 Act ByteC\n"}
+get HC2.Act.ByteC expect ".*\n*"
+get HC2.Act.ByteC postproc { (split("\n", "$_"))[0] }
+
+# ByteD
+get HC2.Act.ByteD cmd {"r -c hc2 Act ByteD\n"}
+get HC2.Act.ByteD expect ".*\n*"
+get HC2.Act.ByteD postproc { (split("\n", "$_"))[0] }
+# *********************************************
