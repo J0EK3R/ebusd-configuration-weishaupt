@@ -251,6 +251,11 @@ get HC2.Act.SupplyTemp cmd {"r -c hc2 Act SupplyTemp\n"}
 get HC2.Act.SupplyTemp expect "\d+\.\d+\n\n"
 get HC2.Act.SupplyTemp postproc { sprintf("%5.1f",$_) }
 
+# ExternalTemp
+get HC2.Act.ExternalTemp cmd {"r -c hc2 Act ExternalTemp\n"}
+get HC2.Act.ExternalTemp expect ".*\n*"
+get HC2.Act.ExternalTemp postproc { (split("\n", "$_"))[0] }
+
 # Byte2
 get HC2.Act.Byte2 cmd {"r -c hc2 Act Byte2\n"}
 get HC2.Act.Byte2 expect ".*\n*"
@@ -260,11 +265,6 @@ get HC2.Act.Byte2 postproc { (split("\n", "$_"))[0] }
 get HC2.Act.Byte3 cmd {"r -c hc2 Act Byte3\n"}
 get HC2.Act.Byte3 expect ".*\n*"
 get HC2.Act.Byte3 postproc { (split("\n", "$_"))[0] }
-
-# Byte7
-get HC2.Act.Byte7 cmd {"r -c hc2 Act Byte7\n"}
-get HC2.Act.Byte7 expect ".*\n*"
-get HC2.Act.Byte7 postproc { (split("\n", "$_"))[0] }
 
 # Byte8
 get HC2.Act.Byte8 cmd {"r -c hc2 Act Byte8\n"}
@@ -290,9 +290,4 @@ get HC2.Act.ByteB postproc { (split("\n", "$_"))[0] }
 get HC2.Act.ByteC cmd {"r -c hc2 Act ByteC\n"}
 get HC2.Act.ByteC expect ".*\n*"
 get HC2.Act.ByteC postproc { (split("\n", "$_"))[0] }
-
-# ByteD
-get HC2.Act.ByteD cmd {"r -c hc2 Act ByteD\n"}
-get HC2.Act.ByteD expect ".*\n*"
-get HC2.Act.ByteD postproc { (split("\n", "$_"))[0] }
 # *********************************************
