@@ -1,6 +1,6 @@
 ################## weishaupt.classdef ###############
 # Diese Datei einthält die Klassendefinitionen für das ECMD-Device aus FHEM zur Anbindung an ebusd.
-# Die Werte werden wiederum durch einen Timer in FHEM zyklisch gepollt und in DummyDevices geschrieben.
+# Die Werte werden wiederum durch einen Timer in FHEM zyklisch gepollt und in ECMDDevices geschrieben.
 #
 # Bsp.:
 # defmod EBUSD ECMD telnet localhost:8888
