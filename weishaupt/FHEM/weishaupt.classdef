@@ -44,149 +44,149 @@ get BC.Date postproc { (split("\n", "$_"))[0] }
 # Werte aus dem Telegramm 500a Istwerte
 
 # Istwerte - Betriebsphase
-get HC.Act.Operatingphase cmd {"r -c hc Act Operatingphase\n"}
-get HC.Act.Operatingphase expect ".*\n*"
-get HC.Act.Operatingphase postproc { (split("\n", "$_"))[0] }
+get SC.Act.Operatingphase cmd {"r -c sc Act Operatingphase\n"}
+get SC.Act.Operatingphase expect ".*\n*"
+get SC.Act.Operatingphase postproc { (split("\n", "$_"))[0] }
 
 # Istwerte - Status1
-get HC.Act.Status1 cmd {"r -c hc Act Status1\n"}
-get HC.Act.Status1 expect ".*\n*"
-get HC.Act.Status1 postproc { (split("\n", "$_"))[0] }
+get SC.Act.Status1 cmd {"r -c sc Act Status1\n"}
+get SC.Act.Status1 expect ".*\n*"
+get SC.Act.Status1 postproc { (split("\n", "$_"))[0] }
 
 # Istwerte - Status2
-#get HC.Act.Status2 cmd {"r -c hc Act Status2\n"}
-#get HC.Act.Status2 expect ".*\n*"
-#get HC.Act.Status2 postproc { (split("\n", "$_"))[0] }
+#get SC.Act.Status2 cmd {"r -c sc Act Status2\n"}
+#get SC.Act.Status2 expect ".*\n*"
+#get SC.Act.Status2 postproc { (split("\n", "$_"))[0] }
 
 # Istwerte - Status2.Ukn1
-get HC.Act.Status2.Ukn1 cmd {"r -c hc Act Ukn2_1\n"}
-get HC.Act.Status2.Ukn1 expect ".*\n*"
-get HC.Act.Status2.Ukn1 postproc { (split("\n", "$_"))[0] }
+get SC.Act.Status2.Ukn1 cmd {"r -c sc Act Ukn2_1\n"}
+get SC.Act.Status2.Ukn1 expect ".*\n*"
+get SC.Act.Status2.Ukn1 postproc { (split("\n", "$_"))[0] }
 
 # Istwerte - Status2.Ukn2
-get HC.Act.Status2.Ukn2 cmd {"r -c hc Act Ukn2_2\n"}
-get HC.Act.Status2.Ukn2 expect ".*\n*"
-get HC.Act.Status2.Ukn2 postproc { (split("\n", "$_"))[0] }
+get SC.Act.Status2.Ukn2 cmd {"r -c sc Act Ukn2_2\n"}
+get SC.Act.Status2.Ukn2 expect ".*\n*"
+get SC.Act.Status2.Ukn2 postproc { (split("\n", "$_"))[0] }
 
 # Istwerte - Status2.Ukn3
-get HC.Act.Status2.Ukn3 cmd {"r -c hc Act Ukn2_3\n"}
-get HC.Act.Status2.Ukn3 expect ".*\n*"
-get HC.Act.Status2.Ukn3 postproc { (split("\n", "$_"))[0] }
+get SC.Act.Status2.Ukn3 cmd {"r -c sc Act Ukn2_3\n"}
+get SC.Act.Status2.Ukn3 expect ".*\n*"
+get SC.Act.Status2.Ukn3 postproc { (split("\n", "$_"))[0] }
 
 # Istwerte - Status2.Flame
-get HC.Act.Status2.Flame cmd {"r -c hc Act Flame\n"}
-get HC.Act.Status2.Flame expect ".*\n*"
-get HC.Act.Status2.Flame postproc { (split("\n", "$_"))[0] }
+get SC.Act.Status2.Flame cmd {"r -c sc Act Flame\n"}
+get SC.Act.Status2.Flame expect ".*\n*"
+get SC.Act.Status2.Flame postproc { (split("\n", "$_"))[0] }
 
 # Istwerte - Status2.GasValve1
-get HC.Act.Status2.GasValve1 cmd {"r -c hc Act GasValve1\n"}
-get HC.Act.Status2.GasValve1 expect ".*\n*"
-get HC.Act.Status2.GasValve1 postproc { (split("\n", "$_"))[0] }
+get SC.Act.Status2.GasValve1 cmd {"r -c sc Act GasValve1\n"}
+get SC.Act.Status2.GasValve1 expect ".*\n*"
+get SC.Act.Status2.GasValve1 postproc { (split("\n", "$_"))[0] }
 
 # Istwerte - Status2.GasValve2
-get HC.Act.Status2.GasValve2 cmd {"r -c hc Act GasValve2\n"}
-get HC.Act.Status2.GasValve2 expect ".*\n*"
-get HC.Act.Status2.GasValve2 postproc { (split("\n", "$_"))[0] }
+get SC.Act.Status2.GasValve2 cmd {"r -c sc Act GasValve2\n"}
+get SC.Act.Status2.GasValve2 expect ".*\n*"
+get SC.Act.Status2.GasValve2 postproc { (split("\n", "$_"))[0] }
 
 # Istwerte - Status2.Pump
-get HC.Act.Status2.Pump cmd {"r -c hc Act Pump\n"}
-get HC.Act.Status2.Pump expect ".*\n*"
-get HC.Act.Status2.Pump postproc { (split("\n", "$_"))[0] }
+get SC.Act.Status2.Pump cmd {"r -c sc Act Pump\n"}
+get SC.Act.Status2.Pump expect ".*\n*"
+get SC.Act.Status2.Pump postproc { (split("\n", "$_"))[0] }
 
 # Istwerte - Status2.Error
-get HC.Act.Status2.Error cmd {"r -c hc Act Error\n"}
-get HC.Act.Status2.Error expect ".*\n*"
-get HC.Act.Status2.Error postproc { (split("\n", "$_"))[0] }
+get SC.Act.Status2.Error cmd {"r -c sc Act Error\n"}
+get SC.Act.Status2.Error expect ".*\n*"
+get SC.Act.Status2.Error postproc { (split("\n", "$_"))[0] }
 
 # Istwerte - Status3
-#get HC.Act.Status3 cmd {"r -c hc Act Status3\n"}
-#get HC.Act.Status3 expect ".*\n*"
-#get HC.Act.Status3 postproc { (split("\n", "$_"))[0] }
+#get SC.Act.Status3 cmd {"r -c sc Act Status3\n"}
+#get SC.Act.Status3 expect ".*\n*"
+#get SC.Act.Status3 postproc { (split("\n", "$_"))[0] }
 
 # Istwerte - Status3.Ukn1
-get HC.Act.Status3.Ukn1 cmd {"r -c hc Act Ukn3_1\n"}
-get HC.Act.Status3.Ukn1 expect ".*\n*"
-get HC.Act.Status3.Ukn1 postproc { (split("\n", "$_"))[0] }
+get SC.Act.Status3.Ukn1 cmd {"r -c sc Act Ukn3_1\n"}
+get SC.Act.Status3.Ukn1 expect ".*\n*"
+get SC.Act.Status3.Ukn1 postproc { (split("\n", "$_"))[0] }
 
 # Istwerte - Status3.SoWi
-get HC.Act.Status3.SoWi cmd {"r -c hc Act SoWi\n"}
-get HC.Act.Status3.SoWi expect ".*\n*"
-get HC.Act.Status3.SoWi postproc { (split("\n", "$_"))[0] }
+get SC.Act.Status3.SoWi cmd {"r -c sc Act SoWi\n"}
+get SC.Act.Status3.SoWi expect ".*\n*"
+get SC.Act.Status3.SoWi postproc { (split("\n", "$_"))[0] }
 
 # Istwerte - Status3.Ukn2
-get HC.Act.Status3.Ukn3 cmd {"r -c hc Act Ukn3_3\n"}
-get HC.Act.Status3.Ukn3 expect ".*\n*"
-get HC.Act.Status3.Ukn3 postproc { (split("\n", "$_"))[0] }
+get SC.Act.Status3.Ukn3 cmd {"r -c sc Act Ukn3_3\n"}
+get SC.Act.Status3.Ukn3 expect ".*\n*"
+get SC.Act.Status3.Ukn3 postproc { (split("\n", "$_"))[0] }
 
 # Istwerte - Status3.Ukn4
-get HC.Act.Status3.Ukn4 cmd {"r -c hc Act Ukn3_4\n"}
-get HC.Act.Status3.Ukn4 expect ".*\n*"
-get HC.Act.Status3.Ukn4 postproc { (split("\n", "$_"))[0] }
+get SC.Act.Status3.Ukn4 cmd {"r -c sc Act Ukn3_4\n"}
+get SC.Act.Status3.Ukn4 expect ".*\n*"
+get SC.Act.Status3.Ukn4 postproc { (split("\n", "$_"))[0] }
 
 # Istwerte - Status3.Ukn5
-get HC.Act.Status3.Ukn5 cmd {"r -c hc Act Ukn3_5\n"}
-get HC.Act.Status3.Ukn5 expect ".*\n*"
-get HC.Act.Status3.Ukn5 postproc { (split("\n", "$_"))[0] }
+get SC.Act.Status3.Ukn5 cmd {"r -c sc Act Ukn3_5\n"}
+get SC.Act.Status3.Ukn5 expect ".*\n*"
+get SC.Act.Status3.Ukn5 postproc { (split("\n", "$_"))[0] }
 
 # Istwerte - Status3.Ukn6
-get HC.Act.Status3.Ukn6 cmd {"r -c hc Act Ukn3_6\n"}
-get HC.Act.Status3.Ukn6 expect ".*\n*"
-get HC.Act.Status3.Ukn6 postproc { (split("\n", "$_"))[0] }
+get SC.Act.Status3.Ukn6 cmd {"r -c sc Act Ukn3_6\n"}
+get SC.Act.Status3.Ukn6 expect ".*\n*"
+get SC.Act.Status3.Ukn6 postproc { (split("\n", "$_"))[0] }
 
 # Istwerte - Status3.Ukn7
-get HC.Act.Status3.Ukn7 cmd {"r -c hc Act Ukn3_7\n"}
-get HC.Act.Status3.Ukn7 expect ".*\n*"
-get HC.Act.Status3.Ukn7 postproc { (split("\n", "$_"))[0] }
+get SC.Act.Status3.Ukn7 cmd {"r -c sc Act Ukn3_7\n"}
+get SC.Act.Status3.Ukn7 expect ".*\n*"
+get SC.Act.Status3.Ukn7 postproc { (split("\n", "$_"))[0] }
 
 # Istwerte - Status3.SettingUV
-get HC.Act.Status3.SettingUV cmd {"r -c hc Act SettingUV\n"}
-get HC.Act.Status3.SettingUV expect ".*\n*"
-get HC.Act.Status3.SettingUV postproc { (split("\n", "$_"))[0] }
+get SC.Act.Status3.SettingUV cmd {"r -c sc Act SettingUV\n"}
+get SC.Act.Status3.SettingUV expect ".*\n*"
+get SC.Act.Status3.SettingUV postproc { (split("\n", "$_"))[0] }
 
 # Istwerte - Laststellung
 # Bsp.: 32
-get HC.Act.Load cmd {"r -c hc Act Load\n"}
-get HC.Act.Load expect "\d+\n\n"
-get HC.Act.Load postproc { (split("\n", "$_"))[0] }
+get SC.Act.Load cmd {"r -c sc Act Load\n"}
+get SC.Act.Load expect "\d+\n\n"
+get SC.Act.Load postproc { (split("\n", "$_"))[0] }
 
 # Istwerte - Vorlauftemperatur
 # Bsp.: 40.0
-get HC.Act.SupplyTemp cmd {"r -c hc Act SupplyTemp\n"}
-get HC.Act.SupplyTemp expect "\d+\.\d+\n\n"
-get HC.Act.SupplyTemp postproc { sprintf("%5.1f",$_) }
+get SC.Act.SupplyTemp cmd {"r -c sc Act SupplyTemp\n"}
+get SC.Act.SupplyTemp expect "\d+\.\d+\n\n"
+get SC.Act.SupplyTemp postproc { sprintf("%5.1f",$_) }
 
 # Istwerte - Wassertemperatur
 # Bsp.: 48.0
-get HC.Act.DHWTemp cmd {"r -c hc Act DHWTemp\n"}
-get HC.Act.DHWTemp expect "\d+\.\d+\n\n"
-get HC.Act.DHWTemp postproc { sprintf("%5.1f",$_) }
+get SC.Act.DHWTemp cmd {"r -c sc Act DHWTemp\n"}
+get SC.Act.DHWTemp expect "\d+\.\d+\n\n"
+get SC.Act.DHWTemp postproc { sprintf("%5.1f",$_) }
 
 # Istwerte - Temp1
 # Bsp.: 0.0
-get HC.Act.UknTemp1 cmd {"r -c hc Act UknTemp\n"}
-get HC.Act.UknTemp1 expect ".*\n*"
-get HC.Act.UknTemp1 postproc { sprintf("%5.1f",$_) }
+get SC.Act.UknTemp1 cmd {"r -c sc Act UknTemp\n"}
+get SC.Act.UknTemp1 expect ".*\n*"
+get SC.Act.UknTemp1 postproc { sprintf("%5.1f",$_) }
 
 # Istwerte - Abgastemperatur -> kein Wert
-get HC.Act.FlueGasTemp cmd {"r -c hc Act FlueGasTemp\n"}
-get HC.Act.FlueGasTemp expect ".*\n*"
-get HC.Act.FlueGasTemp postproc { sprintf("%5.0f",$_) }
+get SC.Act.FlueGasTemp cmd {"r -c sc Act FlueGasTemp\n"}
+get SC.Act.FlueGasTemp expect ".*\n*"
+get SC.Act.FlueGasTemp postproc { sprintf("%5.0f",$_) }
 
 # Istwerte - Außentemperatur
 # Bsp.: 8
-get HC.Act.ExternalTemp cmd {"r -c hc Act ExternalTemp\n"}
-get HC.Act.ExternalTemp expect "\d+\n\n"
-get HC.Act.ExternalTemp postproc { (split("\n", "$_"))[0] }
+get SC.Act.ExternalTemp cmd {"r -c sc Act ExternalTemp\n"}
+get SC.Act.ExternalTemp expect "\d+\n\n"
+get SC.Act.ExternalTemp postproc { (split("\n", "$_"))[0] }
 
 # Istwerte - Trend
-get HC.Act.TrendTemp cmd {"r -c hc Act TrendTemp\n"}
-get HC.Act.TrendTemp expect "\d+\.\d+\n\n"
-get HC.Act.TrendTemp postproc { sprintf("%5.3f",$_) }
+get SC.Act.TrendTemp cmd {"r -c sc Act TrendTemp\n"}
+get SC.Act.TrendTemp expect "\d+\.\d+\n\n"
+get SC.Act.TrendTemp postproc { sprintf("%5.3f",$_) }
 
 # Istwerte - Vorlauf Solltemperatur
-get HC.Act.SupplySetTemp cmd {"r -c hc Act SupplySetTemp\n"}
-get HC.Act.SupplySetTemp expect "\d+\n\n"
-get HC.Act.SupplySetTemp postproc { (split("\n", "$_"))[0] }
+get SC.Act.SupplySetTemp cmd {"r -c sc Act SupplySetTemp\n"}
+get SC.Act.SupplySetTemp expect "\d+\n\n"
+get SC.Act.SupplySetTemp postproc { (split("\n", "$_"))[0] }
 # *********************************************
 
 # *********************************************

@@ -1,10 +1,10 @@
 # type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment
 *b,,,,,"F1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-b,,Set,Sollwerte HC1->CC ,"70",,"0507",,Status,,_8_Opdataheat,,, ,Action,,_8_Opdataaction,,, ,SetTemp,,_16_Temp2,,, ,SetPressure,,_16_Pressure,,, ,OutputDegree,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
+b,,Set,Sollwerte HC2->SC ,"70",,"0507",,Status,,_8_Opdataheat,,, ,Action,,_8_Opdataaction,,, ,SetTemp,,_16_Temp2,,, ,SetPressure,,_16_Pressure,,, ,OutputDegree,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
 
-!include,hcx.processvalues.inc,,Prozesswerte Heizkreisregler,,,,,,,,,,
-!include,hcx.user.inc,,Parameter Endanwender - Heizkreis,,,,,,,,,,
-!include,hcx.userholiday.inc,,Parameter Endanwender - Urlaub,,,,,,,,,,
-!include,hcx.expert.inc,,Parameter Heizungsfachmann - Heizkreis,,,,,,,,,,
-!include,hcx.expert2.inc,,Parameter Heizungsfachmann - Heizkreis 2 Fußbodenheizung,,,,,,,,,,
-!include,hcx.timer.inc,,Zeitprogramme Heizkreis,,,,,,,,,,
+!include,hc.processvalues.inc,,Prozesswerte Heizkreisregler,,,,,,,,,,
+!include,hc.user.inc,,Parameter Endanwender - Heizkreis,,,,,,,,,,
+!include,hc.userholiday.inc,,Parameter Endanwender - Urlaub,,,,,,,,,,
+!include,hc.expert.inc,,Parameter Heizungsfachmann - Heizkreis,,,,,,,,,,
+!include,hc.expert2.inc,,Parameter Heizungsfachmann - Heizkreis 2 Fußbodenheizung,,,,,,,,,,
+!include,hc.timer.inc,,Zeitprogramme Heizkreis,,,,,,,,,,

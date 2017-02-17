@@ -1,0 +1,6 @@
+#instruction,parameter,comment
+!include,sc.processvalues.inc,Prozesswerte
+!include,sc.enduser.inc,Endanwender
+!include,sc.statistic.inc,Statistik
+!include,sc.manufacturer.inc,Hersteller
+!include,sc.errorhistory.inc,Fehlerhistorie
