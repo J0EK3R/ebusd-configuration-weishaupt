@@ -20,56 +20,84 @@
 #get Weishaupt.SC.Act.Status1 Read5 read -c sc Act Status1;;\
 
 # Klasse Read1 - Aufruf Kommando mit einem Parameter
+get Read params P1
+get Read cmd {
+  my $Parameter = 
+"read -c broadcast datetime time\n"
+}
+get Read expect ".*\n*"
+#get Read postproc { (split("\n", "$_"))[0] }
+get Read postproc { s/\n//g; $_ }
+
+# Klasse Read1 - Aufruf Kommando mit einem Parameter
+#state Read1
 get Read1 params P1
 get Read1 cmd {"%P1\n"}
 get Read1 expect ".*\n*"
-get Read1 postproc { (split("\n", "$_"))[0] }
+#get Read1 postproc { (split("\n", "$_"))[0] }
+get Read1 postproc { s/\n//g; $_ }
 
 # Klasse Read2 - Aufruf Kommando mit zwei Parametern
+#state Read2
 get Read2 params P1 P2
 get Read2 cmd {"%P1 %P2\n"}
 get Read2 expect ".*\n*"
-get Read2 postproc { (split("\n", "$_"))[0] }
+#get Read2 postproc { (split("\n", "$_"))[0] }
+get Read2 postproc { s/\n//g; $_ }
 
 # Klasse Read3 - Aufruf Kommando mit drei Parametern
+#state Read3
 get Read3 params P1 P2 P3
 get Read3 cmd {"%P1 %P2 %P3\n"}
 get Read3 expect ".*\n*"
-get Read3 postproc { (split("\n", "$_"))[0] }
+#get Read3 postproc { (split("\n", "$_"))[0] }
+get Read3 postproc { s/\n//g; $_ }
 
 # Klasse Read4 - Aufruf Kommando mit vier Parametern
+#state Read4
 get Read4 params P1 P2 P3 P4
 get Read4 cmd {"%P1 %P2 %P3 %P4\n"}
 get Read4 expect ".*\n*"
-get Read4 postproc { (split("\n", "$_"))[0] }
+#get Read4 postproc { (split("\n", "$_"))[0] }
+get Read4 postproc { s/\n//g; $_ }
 
 # Klasse Read5 - Aufruf Kommando mit fünf Parametern
+#state Read5
 get Read5 params P1 P2 P3 P4 P5
 get Read5 cmd {"%P1 %P2 %P3 %P4 %P5\n"}
 get Read5 expect ".*\n*"
-get Read5 postproc { (split("\n", "$_"))[0] }
+#get Read5 postproc { (split("\n", "$_"))[0] }
+get Read5 postproc { s/\n//g; $_ }
 
 # Klasse Read6 - Aufruf Kommando mit sechs Parametern
+#state Read6
 get Read6 params P1 P2 P3 P4 P5 P6
 get Read6 cmd {"%P1 %P2 %P3 %P4 %P5 %P6\n"}
 get Read6 expect ".*\n*"
-get Read6 postproc { (split("\n", "$_"))[0] }
+#get Read6 postproc { (split("\n", "$_"))[0] }
+get Read6 postproc { s/\n//g; $_ }
 
 # Klasse Read7 - Aufruf Kommando mit sieben Parametern
+#state Read7
 get Read7 params P1 P2 P3 P4 P5 P6 P7
 get Read7 cmd {"%P1 %P2 %P3 %P4 %P5 %P6 %P7\n"}
 get Read7 expect ".*\n*"
-get Read7 postproc { (split("\n", "$_"))[0] }
+#get Read7 postproc { (split("\n", "$_"))[0] }
+get Read7 postproc { s/\n//g; $_ }
 
 # Klasse Read8 - Aufruf Kommando mit acht Parametern
+#state Read8
 get Read8 params P1 P2 P3 P4 P5 P6 P7 P8
 get Read8 cmd {"%P1 %P2 %P3 %P4 %P5 %P6 %P7 %P8\n"}
 get Read8 expect ".*\n*"
-get Read8 postproc { (split("\n", "$_"))[0] }
+#get Read8 postproc { (split("\n", "$_"))[0] }
+get Read8 postproc { s/\n//g; $_ }
 
 # Klasse Read9 - Aufruf Kommando mit neun Parametern
+#state Read9
 get Read9 params P1 P2 P3 P4 P5 P6 P7 P8 P9
 get Read9 cmd {"%P1 %P2 %P3 %P4 %P5 %P6 %P7 %P8 %P9\n"}
 get Read9 expect ".*\n*"
-get Read9 postproc { (split("\n", "$_"))[0] }
+#get Read9 postproc { (split("\n", "$_"))[0] }
+get Read9 postproc { s/\n//g; $_ }
 
