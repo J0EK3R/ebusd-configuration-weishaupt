@@ -9,7 +9,7 @@ https://github.com/john30/ebusd
 
 https://github.com/john30/ebusd-configuration
 
-# hint: create local clone:
+# quick hint: create local clone
 ```
 git clone https://github.com/J0EK3R/ebusd-configuration-weishaupt.git /etc/ebusd/
 ```
