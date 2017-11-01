@@ -22,6 +22,7 @@ _8_Temp0,UCH,,°C,Temperatur
 _8_Temp1,SCH,,°C,Temperatur
 _8_Temp2,D1C,,°C,Temperatur
 _8_Temp3,D2C,,°C,Temperatur
+
 # Field Templates für Start/Ende-Zeit der Programme,,,,
 _8_TimeStart:Start,TTQ,,,Startzeit 
 _8_TimeEnd:End,TTQ,,,Endezeit 
