@@ -1,4 +1,5 @@
 # TEMPLATE[:FIELDNAME],DATATYPE: BASETYPE|TEMPLATE[;BASETYPE|TEMPLATE]*,DIVIDER/VALUES,UNIT,COMMENT
+# _X_ -> number of Bits
 _1_ReleaseDHW,BI6,,,Freigabe Warmwasser
 _1_ReleaseHC,BI7,,,Freigabe Heizkreis
 _6_TimeSinceLastCommand,BI0:6,,,Zeit seit letztem Kommando
@@ -12,6 +13,7 @@ _8_Opdataheat,UCH,0x00=off;0x01=none;0x55=hotwater;0xaa=heating;0xcc=emissionche
 _8_Opdataheat2,UCH,0x20=hotwater;0x60=heating,,Wärmeanforderung
 _8_Opdataaction,UCH,0x00=none;0x01=stoppump;0x02=startpump;0x03=stopconsumer;0x04=startconsumer,,
 _8_Percent,D1C,,%,Prozent
+_8_ProgramState,UCH,0x02=Program;0x0A=ProgramSuspended;0x12=ProgramExtended,,Programm Status (An-/Abwesenheit)
 _8_Rpm60,UCH,-60,Rpm,Drehzahl
 _8_SettingUV,UCH,0x00=HZ,,Stellung UV
 _8_Skip,IGN:1,,,
