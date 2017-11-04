@@ -1,6 +1,9 @@
 # ignore complete vaillant directory
 vaillant/
 
+# ignore complete ebusd.eu directory
+ebusd.eu/
+
 # ignore files
 /_templates.csv
 /broadcast.csv
