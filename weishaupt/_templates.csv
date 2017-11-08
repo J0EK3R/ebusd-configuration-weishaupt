@@ -1,5 +1,5 @@
 # TEMPLATE[:FIELDNAME],DATATYPE: BASETYPE|TEMPLATE[;BASETYPE|TEMPLATE]*,DIVIDER/VALUES,UNIT,COMMENT
-# _X_ -> number of Bits
+# _X_ -> number of Bits,,,,
 _1_ReleaseDHW,BI6,,,Freigabe Warmwasser
 _1_ReleaseHC,BI7,,,Freigabe Heizkreis
 _6_TimeSinceLastCommand,BI0:6,,,Zeit seit letztem Kommando
