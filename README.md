@@ -1,3 +1,11 @@
+# Maintainer wanted
+I'm searching for a maintainer for this project who reworks and translates the definitions to english.
+The aim is to move these definitions to John's official ebusd-configuration repository.
+I don't have a Weishaupt-burner any more and I don't have any spare time for this project.
+
+Please take my stuff and just do it! ;)
+...and send me a short message!
+
 # ebusd-configuration-weishaupt
 This repository serves configuration files for ebusd for **Weishaupt WTC** devices.
 
